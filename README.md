@@ -48,7 +48,7 @@
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rayBastard&repo=ccxt)](https://github.com/ccxt)
 
-[CryptoCurrency eXchange Trading](https://github.com/ccxt)
+[(CCXT) CryptoCurrency eXchange Trading Library](https://github.com/ccxt)
 
 <h3 align="center">  
 &nbsp;&nbsp;
