@@ -1,11 +1,11 @@
 
-# Hey there! :wave: I am rayBastard
+<div><h1>Hey there! :wave: I am rayBastard</h3>
 
-> ### Junior full stack developer form Moldova :moldova: Interested in cryptocurrency, web and game development <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+<h3>Junior full stack developer form Moldova :moldova: Interested in cryptocurrency, web and game development <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h3>
 
-<div id="header">
+
   <img src="https://komarev.com/ghpvc/?username=rayBastard&style=flat-square&color=blue" alt=""/>
-</div>
+
 
 ### Also love to play:
 > football :soccer:
@@ -52,4 +52,6 @@
 
 <div >
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanh4bTNyNThpemZtYzh3ZzdzM2x2a2lraTczbHRpNHFma2RlY3AzNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EGqeuPNjxx2MEpwvNl/giphy.gif" width="600" height="300"/>
+</div>
+
 </div>
