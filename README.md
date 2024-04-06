@@ -1,4 +1,11 @@
-### Hi there 👋
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXJtdWI0encyMWIzYjQ4bXA4eGVtcDh6ZnNweGdoYWlmcnc2am04ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XGPbVDSbBm70i0P2P4/giphy.gif" width="100"/>
+</div>
+<div id="views" align="center">
+  <img src="https://komarev.com/ghpvc/?username=rayBastard&style=flat-square&color=blue" alt=""/>
+</div>
+
+
 
 <!--
 **rayBastard/rayBastard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
