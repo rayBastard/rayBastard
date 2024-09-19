@@ -2,7 +2,7 @@
 <H1>Hey there! 👋 I am rayBastard</H1>
 
 
-<h3>Junior full stack developer form Moldova :moldova: Interested in cryptocurrency, web and game development <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h3>
+<h3>Senior full stack developer from Moldova :moldova: Interested in cryptocurrency, web and game development <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h3>
 <div><img src="https://komarev.com/ghpvc/?username=rayBastard&style=flat-square&color=blue" alt=""/>
 
 
