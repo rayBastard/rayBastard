@@ -1,67 +1,41 @@
-<div>
-<H1>Hey there! 👋 I am rayBastard</H1>
+# Hey, I'm rayBastard 👋
 
+**Senior full-stack developer** from Moldova 🇲🇩 — core contributor at **[CCXT](https://github.com/ccxt/ccxt)**, the cryptocurrency exchange trading library used by thousands of trading bots and fintech products.
 
-<h3>Senior full stack developer from Moldova :moldova: Interested in cryptocurrency, web and game development <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h3>
-<div><img src="https://komarev.com/ghpvc/?username=rayBastard&style=flat-square&color=blue" alt=""/>
+## 🔧 What I do at CCXT
 
+CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#, Go and Java** — every change has to work identically in six languages. My contributions include:
 
-### Also love to play:
-> football :soccer:
-> guitar :guitar:
-> piano :musical_keyboard:
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXJtdWI0encyMWIzYjQ4bXA4eGVtcDh6ZnNweGdoYWlmcnc2am04ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XGPbVDSbBm70i0P2P4/giphy.gif" width="100"/>
-  <br />
-  <br />
-  <br />
-  <br />
-</div>
+- 🏗️ **New exchange integrations built from scratch:** [Deepcoin](https://github.com/ccxt/ccxt/blob/master/ts/src/deepcoin.ts), [HashKey](https://github.com/ccxt/ccxt/blob/master/ts/src/hashkey.ts), [Opinion](https://github.com/ccxt/ccxt/blob/master/ts/src/prediction/opinion.ts) (prediction markets), [Coincatch](https://github.com/ccxt/ccxt/pull/23589), [OX.FUN](https://github.com/ccxt/ccxt/pull/22354)
+- ⚡ **WebSocket (ccxt.pro) implementations:** real-time orderbooks, trades, balances and orders for TradeOgre, LBank, XT, WhiteBIT and more
+- 🔍 **Deep exchange audits:** systematically verifying every endpoint of an exchange against its live API — request signing, response parsing, error mapping, static-fixture test coverage
+- 🛠️ **Unified API maintenance** across dozens of exchanges: Binance, OKX, KuCoin, Kraken, Bitstamp, BitMart, HTX…
 
+## 🧰 Languages & tools
 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 
-<H3> :hammer_and_wrench: Languages and Tools :</H3>
+## 📊 GitHub stats
 
-<H5>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" title="C#"  alt="C#" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="CSS3" alt="CSS3" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/solidity/solidity-original.svg" title="Solidity"  alt="Solidity" width="40" height="40"/>&nbsp;
-  <br />
-  <br />
-  <br />
-  <br />
-</H5>
+<a href="https://github.com/ccxt/ccxt">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ccxt&repo=ccxt&theme=transparent" alt="CCXT" />
+</a>
+<br/>
+<img src="https://github-readme-stats.vercel.app/api?username=rayBastard&show_icons=true&theme=transparent&include_all_commits=true" alt="rayBastard's GitHub stats" />
 
+## 🎯 Beyond code
 
+Freediving 🤿 · football ⚽ · guitar 🎸 · piano 🎹
 
-<h3>📊Github stats:</h3> 
+## 📫 Reach me
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rayBastard&theme=dark&show_icons=true)
-
-
-
-<h3>  <br />
-  <br />
-  <br />
-  <br />
-  💻 Project:</h3> 
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=rayBastard&repo=ccxt)](https://github.com/ccxt)
-
-[(CCXT) CryptoCurrency eXchange Trading Library](https://github.com/ccxt)
-
-
-
-<div >
-  <br />
-  <br />
-  <br />
-  <br />
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanh4bTNyNThpemZtYzh3ZzdzM2x2a2lraTczbHRpNHFma2RlY3AzNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EGqeuPNjxx2MEpwvNl/giphy.gif" width="600" height="300"/>
-</div>
-
-</div>
+[![X](https://img.shields.io/badge/@RayBastard1-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/RayBastard1)
+[![CCXT](https://img.shields.io/badge/ccxt%2Fccxt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ccxt/ccxt)
