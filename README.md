@@ -23,14 +23,6 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 
-## 📊 GitHub stats
-
-<a href="https://github.com/ccxt/ccxt">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ccxt&repo=ccxt&theme=transparent" alt="CCXT" />
-</a>
-<br/>
-<img src="https://github-readme-stats.vercel.app/api?username=rayBastard&show_icons=true&theme=transparent&include_all_commits=true" alt="rayBastard's GitHub stats" />
-
 ## 🎯 Beyond code
 
 Freediving 🤿 · football ⚽ · guitar 🎸 · piano 🎹
