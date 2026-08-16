@@ -30,4 +30,5 @@ Freediving 🤿 · football ⚽ · guitar 🎸 · piano 🎹
 ## 📫 Reach me
 
 [![X](https://img.shields.io/badge/@RayBastard1-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/RayBastard1)
+[![Telegram](https://img.shields.io/badge/@raybastard22-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/raybastard22)
 [![CCXT](https://img.shields.io/badge/ccxt%2Fccxt-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ccxt/ccxt)
