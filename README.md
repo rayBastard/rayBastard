@@ -43,13 +43,19 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 📊 GitHub stats
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=rayBastard&show_icons=true&include_all_commits=true&hide_border=true&theme=github_dark">
-  <img src="https://github-readme-stats.vercel.app/api?username=rayBastard&show_icons=true&include_all_commits=true&hide_border=true" alt="GitHub stats" height="180">
+  <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/0-profile-details.svg">
+  <img src="profile-summary-card-output/default/0-profile-details.svg" alt="Profile details" width="100%">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=rayBastard&hide_border=true&theme=github-dark-blue">
-  <img src="https://streak-stats.demolab.com?user=rayBastard&hide_border=true" alt="GitHub streak" height="180">
+  <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/3-stats.svg">
+  <img src="profile-summary-card-output/default/3-stats.svg" alt="GitHub stats" width="49%">
 </picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/4-productive-time.svg">
+  <img src="profile-summary-card-output/default/4-productive-time.svg" alt="Commits per hour" width="49%">
+</picture>
+
+<sub>↻ cards are regenerated daily by GitHub Actions — no third-party image services</sub>
 
 ## 🎯 Beyond code
 
