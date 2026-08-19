@@ -15,6 +15,18 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 - 📈 **Advanced trading features:** trailing stops, trigger & TP/SL orders, margin/position management, sandbox & demo-trading modes
 - 🛠️ **Unified API maintenance** across dozens of exchanges: Binance, OKX, KuCoin, Kraken, Bitstamp, BitMart, HTX…
 
+## 🔀 Latest merged PRs in ccxt/ccxt
+
+<!-- CCXT-PRS:START -->
+- [fix(poloniex): map unified clientOrderId to clOrdId for swap orders](https://github.com/ccxt/ccxt/pull/29966) · 2026-08-19
+- [fix(poloniex): TRC20 withdrawals must send network TRX, not TRON](https://github.com/ccxt/ccxt/pull/29954) · 2026-08-19
+- [fix(poloniex): map futures v3 error codes](https://github.com/ccxt/ccxt/pull/29920) · 2026-08-18
+- [fix(toobit): convert network code to exchange id in withdraw()](https://github.com/ccxt/ccxt/pull/29910) · 2026-08-17
+- [fix(poloniex): remove obsolete swap OHLCV timeframe restrictions](https://github.com/ccxt/ccxt/pull/29911) · 2026-08-17
+<!-- CCXT-PRS:END -->
+
+<sub>↻ auto-updated daily by GitHub Actions</sub>
+
 ## 🧰 Languages & tools
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -27,6 +39,17 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+
+## 📊 GitHub stats
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=rayBastard&show_icons=true&include_all_commits=true&hide_border=true&theme=github_dark">
+  <img src="https://github-readme-stats.vercel.app/api?username=rayBastard&show_icons=true&include_all_commits=true&hide_border=true" alt="GitHub stats" height="180">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=rayBastard&hide_border=true&theme=github-dark-blue">
+  <img src="https://streak-stats.demolab.com?user=rayBastard&hide_border=true" alt="GitHub streak" height="180">
+</picture>
 
 ## 🎯 Beyond code
 
