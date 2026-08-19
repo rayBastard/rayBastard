@@ -59,7 +59,7 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 
 ## 🎯 Beyond code
 
-- 🤿 **Freediving** — captain of the **Moldova national freediving team** 🇲🇩 — comfortable at depths where debuggers can't reach
+- 🤿 **Freediving** — captain of the **Moldova national freediving team** 🇲🇩
 - 🐺 **AS Roma** tifoso — *Daje Roma!* ❤️💛
 - 🎸🎹 **Music** — guitar & piano
 - ⚙️ **Warhammer 40K** — in the grim darkness of the far future, there is only merge conflict resolution
