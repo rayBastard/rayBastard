@@ -1,0 +1,22 @@
+name: Generate profile summary cards
+
+on:
+  schedule:
+    - cron: '32 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: rayBastard
+          BRANCH_NAME: main
+          UTC_OFFSET: 3
