@@ -2,13 +2,17 @@
 
 **Senior full-stack developer** from Moldova 🇲🇩 — core contributor at **[CCXT](https://github.com/ccxt/ccxt)**, the cryptocurrency exchange trading library used by thousands of trading bots and fintech products.
 
+> 🏆 **85+ merged PRs** · **top-25 of 350+ contributors** at [ccxt/ccxt](https://github.com/ccxt/ccxt/graphs/contributors) · contributing since 2024
+
 ## 🔧 What I do at CCXT
 
 CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#, Go and Java** — every change has to work identically in six languages. My contributions include:
 
-- 🏗️ **New exchange integrations built from scratch:** [Deepcoin](https://github.com/ccxt/ccxt/blob/master/ts/src/deepcoin.ts), [HashKey](https://github.com/ccxt/ccxt/blob/master/ts/src/hashkey.ts), [Opinion](https://github.com/ccxt/ccxt/blob/master/ts/src/prediction/opinion.ts) (prediction markets), [Coincatch](https://github.com/ccxt/ccxt/pull/23589), [OX.FUN](https://github.com/ccxt/ccxt/pull/22354)
+- 🏗️ **New exchange integrations built from scratch:** [Deepcoin](https://github.com/ccxt/ccxt/blob/master/ts/src/deepcoin.ts), [HashKey](https://github.com/ccxt/ccxt/blob/master/ts/src/hashkey.ts), [Coincatch](https://github.com/ccxt/ccxt/pull/23589), [OX.FUN](https://github.com/ccxt/ccxt/pull/22354)
 - ⚡ **WebSocket (ccxt.pro) implementations:** real-time orderbooks, trades, balances and orders for TradeOgre, LBank, XT, WhiteBIT and more
-- 🔍 **Deep exchange audits:** systematically verifying every endpoint of an exchange against its live API — request signing, response parsing, error mapping, static-fixture test coverage
+- 🎲 **Prediction-market integrations:** [Opinion](https://github.com/ccxt/ccxt/blob/master/ts/src/prediction/opinion.ts), [sx.bet](https://github.com/ccxt/ccxt/pull/29449) (WebSocket via Centrifugo, in review)
+- 🔍 **Deep exchange audits** — endpoint-by-endpoint verification against live APIs with static-fixture regression tests: WhiteBIT, XT, WOO / WOOFi Pro, WEEX, Toobit, Poloniex, Kraken Futures
+- 📈 **Advanced trading features:** trailing stops, trigger & TP/SL orders, margin/position management, sandbox & demo-trading modes
 - 🛠️ **Unified API maintenance** across dozens of exchanges: Binance, OKX, KuCoin, Kraken, Bitstamp, BitMart, HTX…
 
 ## 🧰 Languages & tools
@@ -21,6 +25,7 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 
 ## 🎯 Beyond code
