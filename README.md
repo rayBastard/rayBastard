@@ -1,4 +1,4 @@
-# Hey, I'm rayBastard 👋
+# Hey, I'm Roman Cuhari (aka rayBastard) 👋
 
 **Senior full-stack developer** from Moldova 🇲🇩 — core contributor at **[CCXT](https://github.com/ccxt/ccxt)**, the cryptocurrency exchange trading library used by thousands of trading bots and fintech products.
 
