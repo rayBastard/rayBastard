@@ -18,11 +18,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(phemex): apply amount precision to swap order quantity in createOrder](https://github.com/ccxt/ccxt/pull/29967) · 2026-08-19
 - [fix(poloniex): map unified clientOrderId to clOrdId for swap orders](https://github.com/ccxt/ccxt/pull/29966) · 2026-08-19
 - [fix(poloniex): TRC20 withdrawals must send network TRX, not TRON](https://github.com/ccxt/ccxt/pull/29954) · 2026-08-19
 - [fix(poloniex): map futures v3 error codes](https://github.com/ccxt/ccxt/pull/29920) · 2026-08-18
 - [fix(toobit): convert network code to exchange id in withdraw()](https://github.com/ccxt/ccxt/pull/29910) · 2026-08-17
-- [fix(poloniex): remove obsolete swap OHLCV timeframe restrictions](https://github.com/ccxt/ccxt/pull/29911) · 2026-08-17
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated daily by GitHub Actions</sub>
