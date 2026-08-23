@@ -14,6 +14,7 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 - 🔍 **Deep exchange audits** — endpoint-by-endpoint verification against live APIs with static-fixture regression tests: WhiteBIT, XT, WOO / WOOFi Pro, WEEX, Toobit, Poloniex, Kraken Futures
 - 📈 **Advanced trading features:** trailing stops, trigger & TP/SL orders, margin/position management, sandbox & demo-trading modes
 - 🛠️ **Unified API maintenance** across dozens of exchanges: Binance, OKX, KuCoin, Kraken, Bitstamp, BitMart, HTX…
+- 🍳 **[ccxt-recipes](https://github.com/rayBastard/ccxt-recipes)** — the same five trading tasks solved in all six CCXT languages, side by side
 
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
