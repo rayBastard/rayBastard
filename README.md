@@ -25,7 +25,17 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 - [fix(phemex): apply amount precision to swap order quantity in createOrder](https://github.com/ccxt/ccxt/pull/29967) · 2026-08-19
 <!-- CCXT-PRS:END -->
 
-<sub>↻ auto-updated daily by GitHub Actions</sub>
+<sub>↻ auto-updated by GitHub Actions</sub>
+
+## 🚧 Currently working on
+
+<!-- CCXT-OPEN-PRS:START -->
+- [fix(paradex): omit zero trigger_price in parseOrder](https://github.com/ccxt/ccxt/pull/30069) · opened 2026-08-23
+- [feat(phemex): add watchPositions](https://github.com/ccxt/ccxt/pull/30009) · opened 2026-08-21
+- [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · opened 2026-08-01
+- [fix(tokocrypto): read market margin flag from marginTradingEnable](https://github.com/ccxt/ccxt/pull/30064) · opened 2026-08-23
+- [fix(upbit): parse ws order and trade fields per fill](https://github.com/ccxt/ccxt/pull/30063) · opened 2026-08-23
+<!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
 
@@ -65,6 +75,8 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 - ⚙️ **Warhammer 40K** — in the grim darkness of the far future, there is only merge conflict resolution
 
 ## 📫 Reach me
+
+> 💬 **Got a CCXT question?** Integrating an exchange, debugging a unified method, or something behaves oddly — ping me on [Telegram](https://t.me/raybastard22), happy to help.
 
 [![X](https://img.shields.io/badge/@RayBastard1-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/RayBastard1)
 [![Telegram](https://img.shields.io/badge/@raybastard22-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/raybastard22)
