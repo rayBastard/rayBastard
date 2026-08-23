@@ -18,11 +18,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(paradex): read reduceOnly from the flags array in parseOrder](https://github.com/ccxt/ccxt/pull/30065) · 2026-08-23
 - [fix(upbit): do not default unknown order side to sell](https://github.com/ccxt/ccxt/pull/30012) · 2026-08-22
 - [fix(tokocrypto): route fetchTrades by symbol type and await the open/v1 response](https://github.com/ccxt/ccxt/pull/30013) · 2026-08-21
 - [fix(phemex): correct fetchPositionsADLRank jsdoc name and unify scale getters](https://github.com/ccxt/ccxt/pull/29985) · 2026-08-20
 - [fix(phemex): apply amount precision to swap order quantity in createOrder](https://github.com/ccxt/ccxt/pull/29967) · 2026-08-19
-- [fix(poloniex): map unified clientOrderId to clOrdId for swap orders](https://github.com/ccxt/ccxt/pull/29966) · 2026-08-19
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated daily by GitHub Actions</sub>
