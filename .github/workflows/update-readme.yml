@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: '17 6 * * *'
+    - cron: '17 */6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -13,19 +13,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Update latest merged PRs section
+      - name: Update CCXT PR sections
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           python3 - <<'EOF'
           import json, re, subprocess
-          query = "search/issues?q=repo:ccxt/ccxt+type:pr+author:rayBastard+is:merged&sort=updated&order=desc&per_page=5"
-          items = json.loads(subprocess.check_output(["gh", "api", query]))["items"]
-          lines = [f"- [{i['title']}]({i['html_url']}) · {i['closed_at'][:10]}" for i in items]
-          block = "<!-- CCXT-PRS:START -->\n" + "\n".join(lines) + "\n<!-- CCXT-PRS:END -->"
+
+          def fetch(query):
+              return json.loads(subprocess.check_output(["gh", "api", query]))["items"]
+
+          def replace(readme, start, end, lines):
+              block = f"{start}\n" + "\n".join(lines) + f"\n{end}"
+              return re.sub(re.escape(start) + r".*?" + re.escape(end), lambda m: block, readme, flags=re.S)
+
+          merged = fetch("search/issues?q=repo:ccxt/ccxt+type:pr+author:rayBastard+is:merged&sort=updated&order=desc&per_page=5")
+          opened = fetch("search/issues?q=repo:ccxt/ccxt+type:pr+state:open+author:rayBastard&sort=updated&order=desc&per_page=5")
+
           with open("README.md") as f:
               readme = f.read()
-          readme = re.sub(r"<!-- CCXT-PRS:START -->.*?<!-- CCXT-PRS:END -->", lambda m: block, readme, flags=re.S)
+          readme = replace(readme, "<!-- CCXT-PRS:START -->", "<!-- CCXT-PRS:END -->",
+                           [f"- [{i['title']}]({i['html_url']}) · {i['closed_at'][:10]}" for i in merged])
+          readme = replace(readme, "<!-- CCXT-OPEN-PRS:START -->", "<!-- CCXT-OPEN-PRS:END -->",
+                           [f"- [{i['title']}]({i['html_url']}) · opened {i['created_at'][:10]}" for i in opened])
           with open("README.md", "w") as f:
               f.write(readme)
           EOF
@@ -35,6 +45,6 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add README.md
-            git commit -m "chore: update latest merged PRs"
+            git commit -m "chore: update CCXT PR sections"
             git push
           fi
