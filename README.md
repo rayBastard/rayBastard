@@ -19,11 +19,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(paradex): omit zero trigger_price in parseOrder](https://github.com/ccxt/ccxt/pull/30069) · 2026-08-24
 - [fix(paradex): read reduceOnly from the flags array in parseOrder](https://github.com/ccxt/ccxt/pull/30065) · 2026-08-23
 - [fix(upbit): do not default unknown order side to sell](https://github.com/ccxt/ccxt/pull/30012) · 2026-08-22
 - [fix(tokocrypto): route fetchTrades by symbol type and await the open/v1 response](https://github.com/ccxt/ccxt/pull/30013) · 2026-08-21
 - [fix(phemex): correct fetchPositionsADLRank jsdoc name and unify scale getters](https://github.com/ccxt/ccxt/pull/29985) · 2026-08-20
-- [fix(phemex): apply amount precision to swap order quantity in createOrder](https://github.com/ccxt/ccxt/pull/29967) · 2026-08-19
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -31,11 +31,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [fix(paradex): omit zero trigger_price in parseOrder](https://github.com/ccxt/ccxt/pull/30069) · opened 2026-08-23
 - [feat(phemex): add watchPositions](https://github.com/ccxt/ccxt/pull/30009) · opened 2026-08-21
 - [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · opened 2026-08-01
 - [fix(tokocrypto): read market margin flag from marginTradingEnable](https://github.com/ccxt/ccxt/pull/30064) · opened 2026-08-23
 - [fix(upbit): parse ws order and trade fields per fill](https://github.com/ccxt/ccxt/pull/30063) · opened 2026-08-23
+- [fix(weex): derive ws trade side from the buyer-maker flag](https://github.com/ccxt/ccxt/pull/30060) · opened 2026-08-23
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
