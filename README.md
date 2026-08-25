@@ -31,11 +31,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [feat(phemex): add watchPositions](https://github.com/ccxt/ccxt/pull/30009) · opened 2026-08-21
 - [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · opened 2026-08-01
-- [fix(tokocrypto): read market margin flag from marginTradingEnable](https://github.com/ccxt/ccxt/pull/30064) · opened 2026-08-23
-- [fix(upbit): parse ws order and trade fields per fill](https://github.com/ccxt/ccxt/pull/30063) · opened 2026-08-23
-- [fix(weex): derive ws trade side from the buyer-maker flag](https://github.com/ccxt/ccxt/pull/30060) · opened 2026-08-23
+- [fix(p2b): read errorCode from response root in handleErrors](https://github.com/ccxt/ccxt/pull/30098) · opened 2026-08-24
+- [fix(pacifica): resolve order symbol in parseOrder and return latest order state from fetchOrder](https://github.com/ccxt/ccxt/pull/30097) · opened 2026-08-24
+- [fix(paradex): expose liquidation_price in parsePosition](https://github.com/ccxt/ccxt/pull/30096) · opened 2026-08-24
+- [feat(phemex): add watchPositions](https://github.com/ccxt/ccxt/pull/30009) · opened 2026-08-21
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
