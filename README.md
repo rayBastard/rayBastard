@@ -19,11 +19,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(xt): support postOnly orders via timeInForce GTX](https://github.com/ccxt/ccxt/pull/30059) · 2026-08-25
 - [fix(p2b): read errorCode from response root in handleErrors](https://github.com/ccxt/ccxt/pull/30098) · 2026-08-25
 - [fix(paradex): omit zero trigger_price in parseOrder](https://github.com/ccxt/ccxt/pull/30069) · 2026-08-24
 - [fix(paradex): read reduceOnly from the flags array in parseOrder](https://github.com/ccxt/ccxt/pull/30065) · 2026-08-23
 - [fix(upbit): do not default unknown order side to sell](https://github.com/ccxt/ccxt/pull/30012) · 2026-08-22
-- [fix(tokocrypto): route fetchTrades by symbol type and await the open/v1 response](https://github.com/ccxt/ccxt/pull/30013) · 2026-08-21
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -32,10 +32,10 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 
 <!-- CCXT-OPEN-PRS:START -->
 - [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · opened 2026-08-01
-- [fix(pacifica): resolve order symbol in parseOrder and return latest order state from fetchOrder](https://github.com/ccxt/ccxt/pull/30097) · opened 2026-08-24
-- [fix(paradex): expose liquidation_price in parsePosition](https://github.com/ccxt/ccxt/pull/30096) · opened 2026-08-24
-- [feat(phemex): add watchPositions](https://github.com/ccxt/ccxt/pull/30009) · opened 2026-08-21
-- [fix(tokocrypto): read market margin flag from marginTradingEnable](https://github.com/ccxt/ccxt/pull/30064) · opened 2026-08-23
+- [fix(alpaca): fetchTickers without symbols defaults to all markets](https://github.com/ccxt/ccxt/pull/30102) · opened 2026-08-25
+- [fix(alpaca): classify error 40310000 by message, not by code](https://github.com/ccxt/ccxt/pull/30103) · opened 2026-08-25
+- [fix(alpaca): declare limits.cost.min of 10 for USD-quoted crypto markets](https://github.com/ccxt/ccxt/pull/30101) · opened 2026-08-25
+- [fix(alpaca): fetchOHLCV since sent day-truncated, intraday ranges return empty](https://github.com/ccxt/ccxt/pull/30100) · opened 2026-08-25
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
