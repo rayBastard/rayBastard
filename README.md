@@ -31,11 +31,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · opened 2026-08-01
 - [fix(tokocrypto): route market data by symbol type instead of quote currency](https://github.com/ccxt/ccxt/pull/30141) · opened 2026-08-27
 - [fix(paradex): read the position fields the payload carries](https://github.com/ccxt/ccxt/pull/30140) · opened 2026-08-27
 - [fix(xt): correct filled and cost on spot market buy orders](https://github.com/ccxt/ccxt/pull/30139) · opened 2026-08-27
 - [fix(pacifica): read trade symbol from payload in parseTrade](https://github.com/ccxt/ccxt/pull/30138) · opened 2026-08-27
-- [docs(p2b): fix copy-pasted description and stale @see link](https://github.com/ccxt/ccxt/pull/30137) · opened 2026-08-27
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
