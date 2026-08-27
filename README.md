@@ -19,11 +19,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [feat(alpaca): fetchOHLCV pagination via next_page_token behind params paginate](https://github.com/ccxt/ccxt/pull/30117) · 2026-08-27
 - [fix(bingx): satisfy strict-boolean-expressions lint on the inverse market check](https://github.com/ccxt/ccxt/pull/30118) · 2026-08-25
 - [fix(tokocrypto): read market margin flag from marginTradingEnable](https://github.com/ccxt/ccxt/pull/30064) · 2026-08-25
 - [fix(alpaca): fetchOHLCV since sent day-truncated, intraday ranges return empty](https://github.com/ccxt/ccxt/pull/30100) · 2026-08-25
 - [fix(alpaca): fetchTickers without symbols defaults to all markets](https://github.com/ccxt/ccxt/pull/30102) · 2026-08-25
-- [fix(alpaca): classify error 40310000 by message, not by code](https://github.com/ccxt/ccxt/pull/30103) · 2026-08-25
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -31,11 +31,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [feat(alpaca): fetchOHLCV pagination via next_page_token behind params paginate](https://github.com/ccxt/ccxt/pull/30117) · opened 2026-08-25
-- [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · opened 2026-08-01
-- [feat(phemex): add watchPositions](https://github.com/ccxt/ccxt/pull/30009) · opened 2026-08-21
-- [fix(upbit): parse ws order and trade fields per fill](https://github.com/ccxt/ccxt/pull/30063) · opened 2026-08-23
-- [fix(weex): derive ws trade side from the buyer-maker flag](https://github.com/ccxt/ccxt/pull/30060) · opened 2026-08-23
+- [fix(tokocrypto): route market data by symbol type instead of quote currency](https://github.com/ccxt/ccxt/pull/30141) · opened 2026-08-27
+- [fix(paradex): read the position fields the payload carries](https://github.com/ccxt/ccxt/pull/30140) · opened 2026-08-27
+- [fix(xt): correct filled and cost on spot market buy orders](https://github.com/ccxt/ccxt/pull/30139) · opened 2026-08-27
+- [fix(pacifica): read trade symbol from payload in parseTrade](https://github.com/ccxt/ccxt/pull/30138) · opened 2026-08-27
+- [docs(p2b): fix copy-pasted description and stale @see link](https://github.com/ccxt/ccxt/pull/30137) · opened 2026-08-27
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
