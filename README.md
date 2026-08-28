@@ -19,11 +19,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [feat(bitget): support UTA (v3) deposit & withdrawal methods](https://github.com/ccxt/ccxt/pull/30146) · 2026-08-28
 - [feat(alpaca): fetchOHLCV pagination via next_page_token behind params paginate](https://github.com/ccxt/ccxt/pull/30117) · 2026-08-27
 - [fix(bingx): satisfy strict-boolean-expressions lint on the inverse market check](https://github.com/ccxt/ccxt/pull/30118) · 2026-08-25
 - [fix(tokocrypto): read market margin flag from marginTradingEnable](https://github.com/ccxt/ccxt/pull/30064) · 2026-08-25
 - [fix(alpaca): fetchOHLCV since sent day-truncated, intraday ranges return empty](https://github.com/ccxt/ccxt/pull/30100) · 2026-08-25
-- [fix(alpaca): fetchTickers without symbols defaults to all markets](https://github.com/ccxt/ccxt/pull/30102) · 2026-08-25
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
