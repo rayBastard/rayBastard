@@ -19,11 +19,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [refactor(okx): retype safeValue to typed getters](https://github.com/ccxt/ccxt/pull/30225) · 2026-09-03
 - [fix(onetrading): support since without to and add until param](https://github.com/ccxt/ccxt/pull/30190) · 2026-08-31
 - [docs(p2b): fix copy-pasted description and stale @see link](https://github.com/ccxt/ccxt/pull/30137) · 2026-08-31
 - [fix(tokocrypto): route market data by symbol type instead of quote currency](https://github.com/ccxt/ccxt/pull/30141) · 2026-08-31
 - [fix(onetrading): correct order status and time-in-force enum mapping](https://github.com/ccxt/ccxt/pull/30165) · 2026-08-31
-- [feat(bitget): support UTA (v3) deposit & withdrawal methods](https://github.com/ccxt/ccxt/pull/30146) · 2026-08-28
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -31,11 +31,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [refactor(okx): retype safeValue to typed getters](https://github.com/ccxt/ccxt/pull/30225) · opened 2026-09-02
 - [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · opened 2026-08-01
 - [feat(onetrading): parse DATED_FUTURE and EQUITY_FUTURE market types](https://github.com/ccxt/ccxt/pull/30211) · opened 2026-09-01
 - [feat(tokocrypto): send and parse the timeInForce of an order](https://github.com/ccxt/ccxt/pull/30189) · opened 2026-08-31
 - [fix(p2b): throw on error envelopes with statuses missing from httpExceptions](https://github.com/ccxt/ccxt/pull/30188) · opened 2026-08-31
+- [fix(paradex): read the position fields the payload carries](https://github.com/ccxt/ccxt/pull/30140) · opened 2026-08-27
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
