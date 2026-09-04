@@ -31,11 +31,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [chore(okx): refresh stale skip-tests entries with dated reasons](https://github.com/ccxt/ccxt/pull/30239) · opened 2026-09-03
+- [fix(nado): order nonce entropy, trigger wrappers, param handling](https://github.com/ccxt/ccxt/pull/30260) · opened 2026-09-04
 - [fix(p2b): throw on error envelopes with statuses missing from httpExceptions](https://github.com/ccxt/ccxt/pull/30188) · opened 2026-08-31
+- [chore(okx): refresh stale skip-tests entries with dated reasons](https://github.com/ccxt/ccxt/pull/30239) · opened 2026-09-03
 - [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · opened 2026-08-01
 - [feat(onetrading): parse DATED_FUTURE and EQUITY_FUTURE market types](https://github.com/ccxt/ccxt/pull/30211) · opened 2026-09-01
-- [feat(tokocrypto): send and parse the timeInForce of an order](https://github.com/ccxt/ccxt/pull/30189) · opened 2026-08-31
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
