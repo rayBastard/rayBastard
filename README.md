@@ -19,11 +19,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [chore(okx): remove dead watchOrderBook checksum option](https://github.com/ccxt/ccxt/pull/30299) · 2026-09-08
+- [fix(okx): correct watchLiquidationsForSymbols option-key casing](https://github.com/ccxt/ccxt/pull/30305) · 2026-09-08
+- [docs(modetrade): update Orderly doc links to new URL structure](https://github.com/ccxt/ccxt/pull/30308) · 2026-09-08
 - [refactor(okx): retype safeValue to typed getters](https://github.com/ccxt/ccxt/pull/30225) · 2026-09-03
 - [fix(onetrading): support since without to and add until param](https://github.com/ccxt/ccxt/pull/30190) · 2026-08-31
-- [docs(p2b): fix copy-pasted description and stale @see link](https://github.com/ccxt/ccxt/pull/30137) · 2026-08-31
-- [fix(tokocrypto): route market data by symbol type instead of quote currency](https://github.com/ccxt/ccxt/pull/30141) · 2026-08-31
-- [fix(onetrading): correct order status and time-in-force enum mapping](https://github.com/ccxt/ccxt/pull/30165) · 2026-08-31
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -31,11 +31,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [chore(okx): remove dead watchOrderBook checksum option](https://github.com/ccxt/ccxt/pull/30299) · opened 2026-09-06
+- [feat(onetrading): parse DATED_FUTURE and EQUITY_FUTURE market types](https://github.com/ccxt/ccxt/pull/30211) · opened 2026-09-01
 - [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
-- [docs(modetrade): update Orderly doc links to new URL structure](https://github.com/ccxt/ccxt/pull/30308) · opened 2026-09-07
-- [fix(okx): correct watchLiquidationsForSymbols option-key casing](https://github.com/ccxt/ccxt/pull/30305) · opened 2026-09-07
 - [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · opened 2026-08-01
+- [fix(nado): order nonce entropy, trigger wrappers, param handling](https://github.com/ccxt/ccxt/pull/30260) · opened 2026-09-04
+- [fix(p2b): throw on error envelopes with statuses missing from httpExceptions](https://github.com/ccxt/ccxt/pull/30188) · opened 2026-08-31
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
