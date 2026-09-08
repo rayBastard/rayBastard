@@ -31,10 +31,10 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [docs(modetrade): update Orderly doc links to new URL structure](https://github.com/ccxt/ccxt/pull/30308) · opened 2026-09-07
-- [fix(okx): correct watchLiquidationsForSymbols option-key casing](https://github.com/ccxt/ccxt/pull/30305) · opened 2026-09-07
 - [chore(okx): remove dead watchOrderBook checksum option](https://github.com/ccxt/ccxt/pull/30299) · opened 2026-09-06
 - [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
+- [docs(modetrade): update Orderly doc links to new URL structure](https://github.com/ccxt/ccxt/pull/30308) · opened 2026-09-07
+- [fix(okx): correct watchLiquidationsForSymbols option-key casing](https://github.com/ccxt/ccxt/pull/30305) · opened 2026-09-07
 - [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · opened 2026-08-01
 <!-- CCXT-OPEN-PRS:END -->
 
