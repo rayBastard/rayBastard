@@ -31,11 +31,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [fix(mudrex): return only real fills from fetchMyTrades](https://github.com/ccxt/ccxt/pull/30347) · opened 2026-09-09
 - [docs(modetrade): document trigger-order limit caps](https://github.com/ccxt/ccxt/pull/30342) · opened 2026-09-09
 - [fix(p2b): throw on error envelopes with statuses missing from httpExceptions](https://github.com/ccxt/ccxt/pull/30188) · opened 2026-08-31
 - [fix(mudrex): complete parseOrder fields and drop fabricated timestamps](https://github.com/ccxt/ccxt/pull/30328) · opened 2026-09-08
 - [feat(onetrading): parse DATED_FUTURE and EQUITY_FUTURE market types](https://github.com/ccxt/ccxt/pull/30211) · opened 2026-09-01
-- [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
