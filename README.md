@@ -19,11 +19,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(okx): map mmp_canceled order status, fix dead reduceOnly guard](https://github.com/ccxt/ccxt/pull/30325) · 2026-09-09
 - [chore(okx): remove dead watchOrderBook checksum option](https://github.com/ccxt/ccxt/pull/30299) · 2026-09-08
 - [fix(okx): correct watchLiquidationsForSymbols option-key casing](https://github.com/ccxt/ccxt/pull/30305) · 2026-09-08
 - [docs(modetrade): update Orderly doc links to new URL structure](https://github.com/ccxt/ccxt/pull/30308) · 2026-09-08
 - [refactor(okx): retype safeValue to typed getters](https://github.com/ccxt/ccxt/pull/30225) · 2026-09-03
-- [fix(onetrading): support since without to and add until param](https://github.com/ccxt/ccxt/pull/30190) · 2026-08-31
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -31,11 +31,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [fix(p2b): throw on error envelopes with statuses missing from httpExceptions](https://github.com/ccxt/ccxt/pull/30188) · opened 2026-08-31
 - [fix(mudrex): complete parseOrder fields and drop fabricated timestamps](https://github.com/ccxt/ccxt/pull/30328) · opened 2026-09-08
-- [chore(modetrade): correct features flags to match implementation](https://github.com/ccxt/ccxt/pull/30326) · opened 2026-09-08
-- [fix(okx): map mmp_canceled order status, fix dead reduceOnly guard](https://github.com/ccxt/ccxt/pull/30325) · opened 2026-09-08
 - [feat(onetrading): parse DATED_FUTURE and EQUITY_FUTURE market types](https://github.com/ccxt/ccxt/pull/30211) · opened 2026-09-01
 - [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
+- [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · opened 2026-08-01
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
