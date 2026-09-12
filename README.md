@@ -2,7 +2,7 @@
 
 **Senior full-stack developer** from Moldova 🇲🇩 — core contributor at **[CCXT](https://github.com/ccxt/ccxt)**, the cryptocurrency exchange trading library used by thousands of trading bots and fintech products.
 
-> 🏆 **115+ merged PRs** · **top-25 of 350+ contributors** at [ccxt/ccxt](https://github.com/ccxt/ccxt/graphs/contributors) · contributing since 2024
+> 🏆 **115+ merged PRs** · **top contributor** at [ccxt/ccxt](https://github.com/ccxt/ccxt/graphs/contributors) · contributing since 2024
 
 ## 🔧 What I do at CCXT
 
