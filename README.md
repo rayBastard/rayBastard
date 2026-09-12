@@ -31,11 +31,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
+- [feat(weex): add fetchFundingHistory](https://github.com/ccxt/ccxt/pull/30397) · opened 2026-09-12
 - [feat(bitget): UTA (v3) trading fee endpoints](https://github.com/ccxt/ccxt/pull/30388) · opened 2026-09-12
+- [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
 - [fix(alpaca): fetchOrders until sent as nonexistent endTime param](https://github.com/ccxt/ccxt/pull/30387) · opened 2026-09-12
-- [fix(nado): php ws timestamp parsing, ws static fixtures, precise ws skip](https://github.com/ccxt/ccxt/pull/30360) · opened 2026-09-10
-- [fix(p2b): throw on error envelopes with statuses missing from httpExceptions](https://github.com/ccxt/ccxt/pull/30188) · opened 2026-08-31
+- [feat(onetrading): parse DATED_FUTURE and EQUITY_FUTURE market types](https://github.com/ccxt/ccxt/pull/30211) · opened 2026-09-01
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
