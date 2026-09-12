@@ -19,11 +19,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(pacifica): fix subaccount transfer (await + string amount)](https://github.com/ccxt/ccxt/pull/30384) · 2026-09-12
 - [fix(mudrex): return only real fills from fetchMyTrades](https://github.com/ccxt/ccxt/pull/30347) · 2026-09-10
 - [fix(okx): map mmp_canceled order status, fix dead reduceOnly guard](https://github.com/ccxt/ccxt/pull/30325) · 2026-09-09
 - [docs(modetrade): document trigger-order limit caps](https://github.com/ccxt/ccxt/pull/30342) · 2026-09-10
 - [chore(okx): remove dead watchOrderBook checksum option](https://github.com/ccxt/ccxt/pull/30299) · 2026-09-08
-- [fix(okx): correct watchLiquidationsForSymbols option-key casing](https://github.com/ccxt/ccxt/pull/30305) · 2026-09-08
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -31,11 +31,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
+- [feat(bitget): UTA (v3) trading fee endpoints](https://github.com/ccxt/ccxt/pull/30388) · opened 2026-09-12
+- [fix(alpaca): fetchOrders until sent as nonexistent endTime param](https://github.com/ccxt/ccxt/pull/30387) · opened 2026-09-12
 - [fix(nado): php ws timestamp parsing, ws static fixtures, precise ws skip](https://github.com/ccxt/ccxt/pull/30360) · opened 2026-09-10
 - [fix(p2b): throw on error envelopes with statuses missing from httpExceptions](https://github.com/ccxt/ccxt/pull/30188) · opened 2026-08-31
-- [feat(onetrading): parse DATED_FUTURE and EQUITY_FUTURE market types](https://github.com/ccxt/ccxt/pull/30211) · opened 2026-09-01
-- [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
-- [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · opened 2026-08-01
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
