@@ -31,11 +31,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
-- [feat(onetrading): parse DATED_FUTURE and EQUITY_FUTURE market types](https://github.com/ccxt/ccxt/pull/30211) · opened 2026-09-01
-- [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · opened 2026-08-01
-- [feat(tokocrypto): send and parse the timeInForce of an order](https://github.com/ccxt/ccxt/pull/30189) · opened 2026-08-31
-- [fix(paradex): read the position fields the payload carries](https://github.com/ccxt/ccxt/pull/30140) · opened 2026-08-27
+- [fix(tests): make go test ReturnPanicError actually recover panics](https://github.com/ccxt/ccxt/pull/29883) · opened 2026-08-15
+- [fix(krakenfutures): guard null price in createOrderRequest](https://github.com/ccxt/ccxt/pull/29892) · opened 2026-08-16
+- [test(whitebit): add fetchTransactionFees and fetchDepositWithdrawFees fixtures](https://github.com/ccxt/ccxt/pull/29879) · opened 2026-08-15
+- [feat(bitget): UTA (v3) ledger endpoints for fetchLedger](https://github.com/ccxt/ccxt/pull/30414) · opened 2026-09-13
+- [fix(alpaca): normalize unified uppercase timeInForce for the venue](https://github.com/ccxt/ccxt/pull/30413) · opened 2026-09-13
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
