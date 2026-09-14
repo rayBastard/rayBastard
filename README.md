@@ -31,11 +31,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [fix(nado): resync watchOrderBook via market_liquidity snapshot](https://github.com/ccxt/ccxt/pull/30437) · opened 2026-09-14
+- [fix(pacifica): fetchBalance returned empty free/used/total](https://github.com/ccxt/ccxt/pull/30427) · opened 2026-09-14
+- [fix(okx): declare has.unWatch* flags for implemented methods](https://github.com/ccxt/ccxt/pull/30436) · opened 2026-09-14
+- [feat(woo): migrate websocket to v3 API](https://github.com/ccxt/ccxt/pull/29578) · opened 2026-08-05
 - [fix(p2b): move fee tiers under tiers so markets validate, enable live tests](https://github.com/ccxt/ccxt/pull/30424) · opened 2026-09-14
-- [fix(weex): account-level position mode and success-envelope error handling](https://github.com/ccxt/ccxt/pull/30412) · opened 2026-09-13
-- [feat(woofipro): migrate leverage methods to per-symbol client/leverages](https://github.com/ccxt/ccxt/pull/29882) · opened 2026-08-15
-- [fix(krakenfutures): guard null price in createOrderRequest](https://github.com/ccxt/ccxt/pull/29892) · opened 2026-08-16
-- [feat(bitget): UTA (v3) ledger endpoints for fetchLedger](https://github.com/ccxt/ccxt/pull/30414) · opened 2026-09-13
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
