@@ -31,10 +31,10 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [fix(p2b): move fee tiers under tiers so markets validate, enable live tests](https://github.com/ccxt/ccxt/pull/30424) · opened 2026-09-14
+- [fix(weex): account-level position mode and success-envelope error handling](https://github.com/ccxt/ccxt/pull/30412) · opened 2026-09-13
 - [feat(woofipro): migrate leverage methods to per-symbol client/leverages](https://github.com/ccxt/ccxt/pull/29882) · opened 2026-08-15
-- [fix(tests): make go test ReturnPanicError actually recover panics](https://github.com/ccxt/ccxt/pull/29883) · opened 2026-08-15
 - [fix(krakenfutures): guard null price in createOrderRequest](https://github.com/ccxt/ccxt/pull/29892) · opened 2026-08-16
-- [test(whitebit): add fetchTransactionFees and fetchDepositWithdrawFees fixtures](https://github.com/ccxt/ccxt/pull/29879) · opened 2026-08-15
 - [feat(bitget): UTA (v3) ledger endpoints for fetchLedger](https://github.com/ccxt/ccxt/pull/30414) · opened 2026-09-13
 <!-- CCXT-OPEN-PRS:END -->
 
