@@ -31,11 +31,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [tests: support disabledRS entries in the static ws runner](https://github.com/ccxt/ccxt/pull/30440) · opened 2026-09-15
 - [fix(nado): resync watchOrderBook via market_liquidity snapshot](https://github.com/ccxt/ccxt/pull/30437) · opened 2026-09-14
 - [fix(pacifica): fetchBalance returned empty free/used/total](https://github.com/ccxt/ccxt/pull/30427) · opened 2026-09-14
 - [fix(okx): declare has.unWatch* flags for implemented methods](https://github.com/ccxt/ccxt/pull/30436) · opened 2026-09-14
 - [feat(woo): migrate websocket to v3 API](https://github.com/ccxt/ccxt/pull/29578) · opened 2026-08-05
-- [fix(p2b): move fee tiers under tiers so markets validate, enable live tests](https://github.com/ccxt/ccxt/pull/30424) · opened 2026-09-14
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
