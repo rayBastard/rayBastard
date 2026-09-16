@@ -19,11 +19,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(alpaca): map the full documented order status enum in parseOrder](https://github.com/ccxt/ccxt/pull/30454) · 2026-09-16
 - [fix(alpaca): normalize unified uppercase timeInForce for the venue](https://github.com/ccxt/ccxt/pull/30413) · 2026-09-15
 - [fix(okx): declare has.unWatch* flags for implemented methods](https://github.com/ccxt/ccxt/pull/30436) · 2026-09-15
 - [fix(pacifica): fix subaccount transfer (await + string amount)](https://github.com/ccxt/ccxt/pull/30384) · 2026-09-12
 - [fix(mudrex): return only real fills from fetchMyTrades](https://github.com/ccxt/ccxt/pull/30347) · 2026-09-10
-- [fix(okx): map mmp_canceled order status, fix dead reduceOnly guard](https://github.com/ccxt/ccxt/pull/30325) · 2026-09-09
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -32,10 +32,10 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 
 <!-- CCXT-OPEN-PRS:START -->
 - [fix(okx): return after orderbook nonce reject, guard caller resolve](https://github.com/ccxt/ccxt/pull/30456) · opened 2026-09-15
-- [fix(alpaca): map the full documented order status enum in parseOrder](https://github.com/ccxt/ccxt/pull/30454) · opened 2026-09-15
 - [feat(bitget): UTA (v3) ledger endpoints for fetchLedger](https://github.com/ccxt/ccxt/pull/30414) · opened 2026-09-13
 - [fix(nado): resync watchOrderBook via market_liquidity snapshot](https://github.com/ccxt/ccxt/pull/30437) · opened 2026-09-14
 - [tests: support disabledRS entries in the static ws runner](https://github.com/ccxt/ccxt/pull/30440) · opened 2026-09-15
+- [feat(woo): migrate websocket to v3 API](https://github.com/ccxt/ccxt/pull/29578) · opened 2026-08-05
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
