@@ -34,8 +34,8 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 - [feat(alpaca): include crypto positions in fetchBalance](https://github.com/ccxt/ccxt/pull/30467) · opened 2026-09-16
 - [feat(krakenfutures): add fetchIndexOHLCV](https://github.com/ccxt/ccxt/pull/30466) · opened 2026-09-16
 - [fix(pacifica): fetchOpenInterest read the wrong endpoint](https://github.com/ccxt/ccxt/pull/30465) · opened 2026-09-16
-- [fix(okx): return after orderbook nonce reject, guard caller resolve](https://github.com/ccxt/ccxt/pull/30456) · opened 2026-09-15
 - [feat(bitget): UTA (v3) ledger endpoints for fetchLedger](https://github.com/ccxt/ccxt/pull/30414) · opened 2026-09-13
+- [fix(nado): resync watchOrderBook via market_liquidity snapshot](https://github.com/ccxt/ccxt/pull/30437) · opened 2026-09-14
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
