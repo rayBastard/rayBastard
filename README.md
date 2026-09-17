@@ -19,11 +19,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [feat(krakenfutures): add fetchFundingHistory](https://github.com/ccxt/ccxt/pull/30493) · 2026-09-17
 - [fix(alpaca): map the full documented order status enum in parseOrder](https://github.com/ccxt/ccxt/pull/30454) · 2026-09-16
 - [fix(alpaca): normalize unified uppercase timeInForce for the venue](https://github.com/ccxt/ccxt/pull/30413) · 2026-09-15
 - [fix(okx): declare has.unWatch* flags for implemented methods](https://github.com/ccxt/ccxt/pull/30436) · 2026-09-15
 - [fix(pacifica): fix subaccount transfer (await + string amount)](https://github.com/ccxt/ccxt/pull/30384) · 2026-09-12
-- [fix(mudrex): return only real fills from fetchMyTrades](https://github.com/ccxt/ccxt/pull/30347) · 2026-09-10
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
