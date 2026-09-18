@@ -31,10 +31,10 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [fix(alpaca): parse watchMyTrades fills from the event, not the order …](https://github.com/ccxt/ccxt/pull/30528) · opened 2026-09-18
+- [fix(lighter): reject spot symbols on the swap-only ticker channel](https://github.com/ccxt/ccxt/pull/30529) · opened 2026-09-18
+- [fix(pacifica): stop leaking slippage params into the market order body](https://github.com/ccxt/ccxt/pull/30526) · opened 2026-09-18
 - [feat(krakenfutures): add fetchPositionsHistory](https://github.com/ccxt/ccxt/pull/30503) · opened 2026-09-17
-- [fix(lighter): resolve unWatch* subscriptions](https://github.com/ccxt/ccxt/pull/30504) · opened 2026-09-17
-- [fix(pacifica): fetchOpenInterest read the wrong endpoint](https://github.com/ccxt/ccxt/pull/30465) · opened 2026-09-16
-- [feat(alpaca): include crypto positions in fetchBalance](https://github.com/ccxt/ccxt/pull/30467) · opened 2026-09-16
 - [feat(bitget): UTA (v3) ledger endpoints for fetchLedger](https://github.com/ccxt/ccxt/pull/30414) · opened 2026-09-13
 <!-- CCXT-OPEN-PRS:END -->
 
