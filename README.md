@@ -32,10 +32,10 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 
 <!-- CCXT-OPEN-PRS:START -->
 - [fix(modetrade): read the real asset-history fields in transactions an…](https://github.com/ccxt/ccxt/pull/30537) · opened 2026-09-18
-- [fix(okx): stop mark-price and index frames overwriting the bid-ask cache](https://github.com/ccxt/ccxt/pull/30535) · opened 2026-09-18
-- [fix(lighter): reject spot symbols on the swap-only ticker channel](https://github.com/ccxt/ccxt/pull/30529) · opened 2026-09-18
-- [fix(pacifica): stop leaking slippage params into the market order body](https://github.com/ccxt/ccxt/pull/30526) · opened 2026-09-18
 - [fix(alpaca): parse watchMyTrades fills from the event, not the order …](https://github.com/ccxt/ccxt/pull/30528) · opened 2026-09-18
+- [feat(krakenfutures): add fetchPositionsHistory](https://github.com/ccxt/ccxt/pull/30503) · opened 2026-09-17
+- [feat(bitget): UTA (v3) ledger endpoints for fetchLedger](https://github.com/ccxt/ccxt/pull/30414) · opened 2026-09-13
+- [fix(nado): resync watchOrderBook via market_liquidity snapshot](https://github.com/ccxt/ccxt/pull/30437) · opened 2026-09-14
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
