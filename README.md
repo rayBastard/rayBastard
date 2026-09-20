@@ -31,11 +31,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [fix(pacifica): classify errors by error_id and read the code as a string](https://github.com/ccxt/ccxt/pull/30551) · opened 2026-09-19
+- [feat(bitget): add fetchDeposit and fetchWithdrawal](https://github.com/ccxt/ccxt/pull/30559) · opened 2026-09-20
 - [fix(lighter): stop id-less ws notices from rejecting unrelated watches](https://github.com/ccxt/ccxt/pull/30552) · opened 2026-09-19
+- [fix(pacifica): classify errors by error_id and read the code as a string](https://github.com/ccxt/ccxt/pull/30551) · opened 2026-09-19
+- [fix(toobit): correct deposit/withdrawal status mapping, filter unlisted tickers](https://github.com/ccxt/ccxt/pull/29919) · opened 2026-08-17
 - [fix(alpaca): parse watchMyTrades fills from the event, not the order …](https://github.com/ccxt/ccxt/pull/30528) · opened 2026-09-18
-- [fix(nado): resync watchOrderBook via market_liquidity snapshot](https://github.com/ccxt/ccxt/pull/30437) · opened 2026-09-14
-- [tests: support disabledRS entries in the static ws runner](https://github.com/ccxt/ccxt/pull/30440) · opened 2026-09-15
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
