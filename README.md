@@ -19,11 +19,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(pacifica): classify errors by error_id and read the code as a string](https://github.com/ccxt/ccxt/pull/30551) · 2026-09-21
 - [feat(bitget): UTA (v3) ledger endpoints for fetchLedger](https://github.com/ccxt/ccxt/pull/30414) · 2026-09-20
 - [fix(modetrade): read the real asset-history fields in transactions an…](https://github.com/ccxt/ccxt/pull/30537) · 2026-09-20
 - [feat(krakenfutures): add fetchPositionsHistory](https://github.com/ccxt/ccxt/pull/30503) · 2026-09-20
 - [feat(krakenfutures): add fetchFundingHistory](https://github.com/ccxt/ccxt/pull/30493) · 2026-09-17
-- [fix(alpaca): map the full documented order status enum in parseOrder](https://github.com/ccxt/ccxt/pull/30454) · 2026-09-16
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -33,9 +33,9 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 <!-- CCXT-OPEN-PRS:START -->
 - [feat(bitget): add fetchDeposit and fetchWithdrawal](https://github.com/ccxt/ccxt/pull/30559) · opened 2026-09-20
 - [fix(lighter): stop id-less ws notices from rejecting unrelated watches](https://github.com/ccxt/ccxt/pull/30552) · opened 2026-09-19
-- [fix(pacifica): classify errors by error_id and read the code as a string](https://github.com/ccxt/ccxt/pull/30551) · opened 2026-09-19
 - [fix(toobit): correct deposit/withdrawal status mapping, filter unlisted tickers](https://github.com/ccxt/ccxt/pull/29919) · opened 2026-08-17
 - [fix(alpaca): parse watchMyTrades fills from the event, not the order …](https://github.com/ccxt/ccxt/pull/30528) · opened 2026-09-18
+- [fix(nado): resync watchOrderBook via market_liquidity snapshot](https://github.com/ccxt/ccxt/pull/30437) · opened 2026-09-14
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
