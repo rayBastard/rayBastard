@@ -32,11 +32,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [fix(okx): ignore a false trigger param when routing order requests](https://github.com/ccxt/ccxt/pull/30575) · opened 2026-09-21
+- [chore(mexc): correct stale response-shape comments](https://github.com/ccxt/ccxt/pull/30576) · opened 2026-09-21
+- [fix(krakenfutures): filter fetchMyTrades by each fill's own market](https://github.com/ccxt/ccxt/pull/30574) · opened 2026-09-21
+- [fix(pacifica): fill the average price of a filled order in fetchOrder](https://github.com/ccxt/ccxt/pull/30572) · opened 2026-09-21
 - [feat(bitget): add fetchDeposit and fetchWithdrawal](https://github.com/ccxt/ccxt/pull/30559) · opened 2026-09-20
-- [fix(lighter): stop id-less ws notices from rejecting unrelated watches](https://github.com/ccxt/ccxt/pull/30552) · opened 2026-09-19
-- [fix(toobit): correct deposit/withdrawal status mapping, filter unlisted tickers](https://github.com/ccxt/ccxt/pull/29919) · opened 2026-08-17
-- [fix(alpaca): parse watchMyTrades fills from the event, not the order …](https://github.com/ccxt/ccxt/pull/30528) · opened 2026-09-18
-- [fix(nado): resync watchOrderBook via market_liquidity snapshot](https://github.com/ccxt/ccxt/pull/30437) · opened 2026-09-14
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
