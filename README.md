@@ -32,9 +32,9 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [fix(okx): ignore a false trigger param when routing order requests](https://github.com/ccxt/ccxt/pull/30575) · opened 2026-09-21
-- [chore(mexc): correct stale response-shape comments](https://github.com/ccxt/ccxt/pull/30576) · opened 2026-09-21
 - [fix(krakenfutures): filter fetchMyTrades by each fill's own market](https://github.com/ccxt/ccxt/pull/30574) · opened 2026-09-21
+- [chore(mexc): correct stale response-shape comments](https://github.com/ccxt/ccxt/pull/30576) · opened 2026-09-21
+- [fix(okx): ignore a false trigger param when routing order requests](https://github.com/ccxt/ccxt/pull/30575) · opened 2026-09-21
 - [fix(pacifica): fill the average price of a filled order in fetchOrder](https://github.com/ccxt/ccxt/pull/30572) · opened 2026-09-21
 - [feat(bitget): add fetchDeposit and fetchWithdrawal](https://github.com/ccxt/ccxt/pull/30559) · opened 2026-09-20
 <!-- CCXT-OPEN-PRS:END -->
