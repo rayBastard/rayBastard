@@ -32,11 +32,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · opened 2026-08-01
 - [fix(krakenfutures): filter fetchMyTrades by each fill's own market](https://github.com/ccxt/ccxt/pull/30574) · opened 2026-09-21
 - [chore(mexc): correct stale response-shape comments](https://github.com/ccxt/ccxt/pull/30576) · opened 2026-09-21
 - [fix(okx): ignore a false trigger param when routing order requests](https://github.com/ccxt/ccxt/pull/30575) · opened 2026-09-21
 - [feat(bitget): add fetchDeposit and fetchWithdrawal](https://github.com/ccxt/ccxt/pull/30559) · opened 2026-09-20
-- [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
