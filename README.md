@@ -20,11 +20,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
-- [feat(bitget): add fetchDeposit and fetchWithdrawal](https://github.com/ccxt/ccxt/pull/30559) · 2026-09-23
-- [fix(okx): ignore a false trigger param when routing order requests](https://github.com/ccxt/ccxt/pull/30575) · 2026-09-23
-- [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · 2026-09-23
-- [fix(pacifica): fill the average price of a filled order in fetchOrder](https://github.com/ccxt/ccxt/pull/30572) · 2026-09-22
-- [fix(pacifica): classify errors by error_id and read the code as a string](https://github.com/ccxt/ccxt/pull/30551) · 2026-09-21
+- [fix(xt): ohlcv, trades, orderbook parameters in unWatch methods fix #27282](https://github.com/ccxt/ccxt/pull/27329) · 2025-11-24
+- [fix(xt): handleSubscriptionStatus updated #27282](https://github.com/ccxt/ccxt/pull/27362) · 2025-11-25
+- [fix (lbank): fetchCurrencies undefined networks bug fixed](https://github.com/ccxt/ccxt/pull/26953) · 2025-10-03
+- [fix(upbit): do not default unknown order side to sell](https://github.com/ccxt/ccxt/pull/30012) · 2026-08-22
+- [fix(xt): support postOnly orders via timeInForce GTX](https://github.com/ccxt/ccxt/pull/30059) · 2026-08-25
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
