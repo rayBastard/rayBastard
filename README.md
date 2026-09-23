@@ -20,11 +20,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest merged PRs in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [feat(bitget): add fetchDeposit and fetchWithdrawal](https://github.com/ccxt/ccxt/pull/30559) · 2026-09-23
+- [fix(okx): ignore a false trigger param when routing order requests](https://github.com/ccxt/ccxt/pull/30575) · 2026-09-23
+- [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · 2026-09-23
 - [fix(pacifica): fill the average price of a filled order in fetchOrder](https://github.com/ccxt/ccxt/pull/30572) · 2026-09-22
 - [fix(pacifica): classify errors by error_id and read the code as a string](https://github.com/ccxt/ccxt/pull/30551) · 2026-09-21
-- [feat(bitget): UTA (v3) ledger endpoints for fetchLedger](https://github.com/ccxt/ccxt/pull/30414) · 2026-09-20
-- [fix(modetrade): read the real asset-history fields in transactions an…](https://github.com/ccxt/ccxt/pull/30537) · 2026-09-20
-- [feat(krakenfutures): add fetchPositionsHistory](https://github.com/ccxt/ccxt/pull/30503) · 2026-09-20
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -33,10 +33,10 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 
 <!-- CCXT-OPEN-PRS:START -->
 - [fix(weex): account-level position mode and success-envelope error handling](https://github.com/ccxt/ccxt/pull/30412) · opened 2026-09-13
-- [feat(sxbet): file sxbet.ts added](https://github.com/ccxt/ccxt/pull/29449) · opened 2026-08-01
 - [fix(krakenfutures): filter fetchMyTrades by each fill's own market](https://github.com/ccxt/ccxt/pull/30574) · opened 2026-09-21
 - [chore(mexc): correct stale response-shape comments](https://github.com/ccxt/ccxt/pull/30576) · opened 2026-09-21
-- [fix(okx): ignore a false trigger param when routing order requests](https://github.com/ccxt/ccxt/pull/30575) · opened 2026-09-21
+- [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
+- [fix(lighter): stop id-less ws notices from rejecting unrelated watches](https://github.com/ccxt/ccxt/pull/30552) · opened 2026-09-19
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
