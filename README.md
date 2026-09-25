@@ -32,11 +32,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [fix(pacifica): format the withdraw amount with numberToString](https://github.com/ccxt/ccxt/pull/30627) · opened 2026-09-25
+- [fix(bitget): map v3 error codes 00001 and 40085](https://github.com/ccxt/ccxt/pull/30626) · opened 2026-09-25
 - [fix(weex): account-level position mode and success-envelope error handling](https://github.com/ccxt/ccxt/pull/30412) · opened 2026-09-13
 - [fix(krakenfutures): filter fetchMyTrades by each fill's own market](https://github.com/ccxt/ccxt/pull/30574) · opened 2026-09-21
 - [chore(mexc): correct stale response-shape comments](https://github.com/ccxt/ccxt/pull/30576) · opened 2026-09-21
-- [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
-- [fix(lighter): stop id-less ws notices from rejecting unrelated watches](https://github.com/ccxt/ccxt/pull/30552) · opened 2026-09-19
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
