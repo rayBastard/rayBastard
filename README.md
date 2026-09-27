@@ -32,11 +32,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [feat(okx): support the unified selfTradePrevention param in createOrder](https://github.com/ccxt/ccxt/pull/30659) · opened 2026-09-27
 - [fix(pacifica): format the withdraw amount with numberToString](https://github.com/ccxt/ccxt/pull/30627) · opened 2026-09-25
 - [fix(bitget): map v3 error codes 00001 and 40085](https://github.com/ccxt/ccxt/pull/30626) · opened 2026-09-25
 - [fix(weex): account-level position mode and success-envelope error handling](https://github.com/ccxt/ccxt/pull/30412) · opened 2026-09-13
 - [fix(krakenfutures): filter fetchMyTrades by each fill's own market](https://github.com/ccxt/ccxt/pull/30574) · opened 2026-09-21
-- [chore(mexc): correct stale response-shape comments](https://github.com/ccxt/ccxt/pull/30576) · opened 2026-09-21
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
