@@ -20,20 +20,38 @@ jobs:
           python3 - <<'EOF'
           import json, re, subprocess
 
-          def fetch(query):
-              return json.loads(subprocess.check_output(["gh", "api", query]))["items"]
+          USER = "rayBastard"
+
+          def api(path):
+              return json.loads(subprocess.check_output(["gh", "api", path]))
 
           def replace(readme, start, end, lines):
               block = f"{start}\n" + "\n".join(lines) + f"\n{end}"
               return re.sub(re.escape(start) + r".*?" + re.escape(end), lambda m: block, readme, flags=re.S)
 
-          merged = fetch("search/issues?q=repo:ccxt/ccxt+type:pr+author:rayBastard+is:merged&sort=updated&order=desc&per_page=5")
-          opened = fetch("search/issues?q=repo:ccxt/ccxt+type:pr+state:open+author:rayBastard&sort=updated&order=desc&per_page=5")
+          landed = [(i["closed_at"][:10], i["title"], i["html_url"]) for i in api(
+              f"search/issues?q=repo:ccxt/ccxt+type:pr+author:{USER}+is:merged&sort=updated&order=desc&per_page=20")["items"]]
+
+          # maintainers also ship PRs inside batch commits, which closes them unmerged
+          batched = {}
+          for commit in api("repos/ccxt/ccxt/commits?sha=master&per_page=100"):
+              subject = commit["commit"]["message"].split("\n")[0]
+              if re.search(r"(?i)\bbatch\b", subject):
+                  for number in re.findall(r"#(\d+)", subject):
+                      batched.setdefault(number, commit["commit"]["committer"]["date"][:10])
+          if batched:
+              for i in api(f"search/issues?q=repo:ccxt/ccxt+type:pr+author:{USER}+is:closed+is:unmerged&sort=updated&order=desc&per_page=50")["items"]:
+                  date = batched.get(str(i["number"]))
+                  if date:
+                      landed.append((date, i["title"], i["html_url"]))
+          landed.sort(reverse=True)
+
+          opened = api(f"search/issues?q=repo:ccxt/ccxt+type:pr+state:open+author:{USER}&sort=updated&order=desc&per_page=5")["items"]
 
           with open("README.md") as f:
               readme = f.read()
           readme = replace(readme, "<!-- CCXT-PRS:START -->", "<!-- CCXT-PRS:END -->",
-                           [f"- [{i['title']}]({i['html_url']}) · {i['closed_at'][:10]}" for i in merged])
+                           [f"- [{title}]({url}) · {date}" for date, title, url in landed[:5]])
           readme = replace(readme, "<!-- CCXT-OPEN-PRS:START -->", "<!-- CCXT-OPEN-PRS:END -->",
                            [f"- [{i['title']}]({i['html_url']}) · opened {i['created_at'][:10]}" for i in opened])
           with open("README.md", "w") as f:
