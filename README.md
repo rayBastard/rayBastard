@@ -20,11 +20,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest PRs landed in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(pacifica): format the withdraw amount with numberToString](https://github.com/ccxt/ccxt/pull/30627) · 2026-09-29
+- [fix(lighter): use the opposite side for attached stopLoss/takeProfit](https://github.com/ccxt/ccxt/pull/30665) · 2026-09-29
+- [fix(bitget): map v3 error codes 00001 and 40085](https://github.com/ccxt/ccxt/pull/30626) · 2026-09-29
 - [fix(lighter): remove unsupported 1w timeframe](https://github.com/ccxt/ccxt/pull/30661) · 2026-09-28
-- [fix(xt): ohlcv, trades, orderbook parameters in unWatch methods fix #27282](https://github.com/ccxt/ccxt/pull/27329) · 2025-11-24
-- [fix(xt): handleSubscriptionStatus updated #27282](https://github.com/ccxt/ccxt/pull/27362) · 2025-11-25
-- [fix (lbank): fetchCurrencies undefined networks bug fixed](https://github.com/ccxt/ccxt/pull/26953) · 2025-10-03
-- [fix(upbit): do not default unknown order side to sell](https://github.com/ccxt/ccxt/pull/30012) · 2026-08-22
+- [fix(lighter): stop id-less ws notices from rejecting unrelated watches](https://github.com/ccxt/ccxt/pull/30552) · 2026-09-27
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -32,11 +32,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [fix(lighter): use the opposite side for attached stopLoss/takeProfit](https://github.com/ccxt/ccxt/pull/30665) · opened 2026-09-28
 - [feat(okx): support the unified selfTradePrevention param in createOrder](https://github.com/ccxt/ccxt/pull/30659) · opened 2026-09-27
-- [fix(pacifica): format the withdraw amount with numberToString](https://github.com/ccxt/ccxt/pull/30627) · opened 2026-09-25
-- [fix(bitget): map v3 error codes 00001 and 40085](https://github.com/ccxt/ccxt/pull/30626) · opened 2026-09-25
 - [fix(weex): account-level position mode and success-envelope error handling](https://github.com/ccxt/ccxt/pull/30412) · opened 2026-09-13
+- [fix(krakenfutures): filter fetchMyTrades by each fill's own market](https://github.com/ccxt/ccxt/pull/30574) · opened 2026-09-21
+- [chore(mexc): correct stale response-shape comments](https://github.com/ccxt/ccxt/pull/30576) · opened 2026-09-21
+- [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
