@@ -20,11 +20,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest PRs landed in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(lighter): php grouped orders signing](https://github.com/ccxt/ccxt/pull/30694) · 2026-09-30
 - [fix(pacifica): format the withdraw amount with numberToString](https://github.com/ccxt/ccxt/pull/30627) · 2026-09-29
 - [fix(lighter): use the opposite side for attached stopLoss/takeProfit](https://github.com/ccxt/ccxt/pull/30665) · 2026-09-29
 - [fix(bitget): map v3 error codes 00001 and 40085](https://github.com/ccxt/ccxt/pull/30626) · 2026-09-29
 - [fix(lighter): remove unsupported 1w timeframe](https://github.com/ccxt/ccxt/pull/30661) · 2026-09-28
-- [fix(lighter): stop id-less ws notices from rejecting unrelated watches](https://github.com/ccxt/ccxt/pull/30552) · 2026-09-27
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -32,9 +32,9 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [fix(lighter): cancel only the given market in cancelAllOrders](https://github.com/ccxt/ccxt/pull/30712) · opened 2026-09-30
 - [docs(bitget): replace dead doc links in urls.doc and fetchBalance](https://github.com/ccxt/ccxt/pull/30702) · opened 2026-09-29
 - [feat(pacifica): add fetchDeposits and fetchWithdrawals](https://github.com/ccxt/ccxt/pull/30697) · opened 2026-09-29
-- [fix(lighter): php grouped orders signing](https://github.com/ccxt/ccxt/pull/30694) · opened 2026-09-29
 - [feat(okx): support the unified selfTradePrevention param in createOrder](https://github.com/ccxt/ccxt/pull/30659) · opened 2026-09-27
 - [fix(weex): account-level position mode and success-envelope error handling](https://github.com/ccxt/ccxt/pull/30412) · opened 2026-09-13
 <!-- CCXT-OPEN-PRS:END -->
