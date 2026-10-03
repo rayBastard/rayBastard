@@ -20,11 +20,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest PRs landed in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(latoken): map the invalid API key and UNAUTHORIZED replies to AuthenticationError](https://github.com/ccxt/ccxt/pull/30741) · 2026-10-03
+- [feat(pacifica): add fetchTradingFees](https://github.com/ccxt/ccxt/pull/30739) · 2026-10-03
 - [fix(lighter): cancel only the given market in cancelAllOrders](https://github.com/ccxt/ccxt/pull/30712) · 2026-10-01
 - [feat(pacifica): add fetchDeposits and fetchWithdrawals](https://github.com/ccxt/ccxt/pull/30697) · 2026-10-01
 - [docs(bitget): replace dead doc links in urls.doc and fetchBalance](https://github.com/ccxt/ccxt/pull/30702) · 2026-10-01
-- [fix(lighter): php grouped orders signing](https://github.com/ccxt/ccxt/pull/30694) · 2026-09-30
-- [fix(lighter): use the opposite side for attached stopLoss/takeProfit](https://github.com/ccxt/ccxt/pull/30665) · 2026-09-29
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -32,11 +32,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [fix(latoken): map the invalid API key and UNAUTHORIZED replies to AuthenticationError](https://github.com/ccxt/ccxt/pull/30741) · opened 2026-10-02
-- [feat(pacifica): add fetchTradingFees](https://github.com/ccxt/ccxt/pull/30739) · opened 2026-10-02
 - [fix(bitget): route uta fetchOHLCV to history-candles for old windows](https://github.com/ccxt/ccxt/pull/30738) · opened 2026-10-02
 - [fix(lighter): let cancelAllOrdersAfter(0) cancel the timer](https://github.com/ccxt/ccxt/pull/30736) · opened 2026-10-02
 - [feat(okx): support the unified selfTradePrevention param in createOrder](https://github.com/ccxt/ccxt/pull/30659) · opened 2026-09-27
+- [fix(weex): account-level position mode and success-envelope error handling](https://github.com/ccxt/ccxt/pull/30412) · opened 2026-09-13
+- [fix(krakenfutures): filter fetchMyTrades by each fill's own market](https://github.com/ccxt/ccxt/pull/30574) · opened 2026-09-21
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
