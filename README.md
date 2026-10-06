@@ -32,11 +32,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [feat(latoken): populate currency networks from the public transaction bindings](https://github.com/ccxt/ccxt/pull/30759) · opened 2026-10-05
+- [feat(hyperliquid): add fetchMyLiquidations and watchMyLiquidations](https://github.com/ccxt/ccxt/pull/30758) · opened 2026-10-05
 - [fix(bitget): route uta fetchFundingRates to v3 current-fund-rate](https://github.com/ccxt/ccxt/pull/30752) · opened 2026-10-05
 - [docs(pacifica): document account helper methods and fix transfer params](https://github.com/ccxt/ccxt/pull/30751) · opened 2026-10-04
 - [fix(rust): populate options.cachedCurrencies before fetchMarkets in load_markets](https://github.com/ccxt/ccxt/pull/30750) · opened 2026-10-04
-- [fix(lighter): let cancelAllOrdersAfter(0) cancel the timer](https://github.com/ccxt/ccxt/pull/30736) · opened 2026-10-02
-- [feat(okx): support the unified selfTradePrevention param in createOrder](https://github.com/ccxt/ccxt/pull/30659) · opened 2026-09-27
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
