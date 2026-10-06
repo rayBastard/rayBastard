@@ -2,7 +2,7 @@
 
 **Full-stack developer** from Moldova 🇲🇩 — core contributor at **[CCXT](https://github.com/ccxt/ccxt)**, the cryptocurrency exchange trading library used by thousands of trading bots and fintech products.
 
-> 🏆 **150+ PRs landed in master** · **top contributor** at [ccxt/ccxt](https://github.com/ccxt/ccxt/graphs/contributors) · contributing since 2024
+> 🏆 **160+ PRs landed in master** · **top contributor** at [ccxt/ccxt](https://github.com/ccxt/ccxt/graphs/contributors) · contributing since 2024
 
 ## 🔧 What I do at CCXT
 
@@ -11,8 +11,8 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 - 🏗️ **New exchange integrations built from scratch:** [Deepcoin](https://github.com/ccxt/ccxt/blob/master/ts/src/deepcoin.ts), [HashKey](https://github.com/ccxt/ccxt/blob/master/ts/src/hashkey.ts), [Coincatch](https://github.com/ccxt/ccxt/pull/23589), [OX.FUN](https://github.com/ccxt/ccxt/pull/22354), [Polymarket Perps](https://github.com/ccxt/ccxt/pull/30268) (in review)
 - ⚡ **WebSocket (ccxt.pro) implementations:** real-time orderbooks, trades, balances and orders for TradeOgre, LBank, XT, WhiteBIT and more
 - 🎲 **Prediction-market integrations:** [Opinion](https://github.com/ccxt/ccxt/blob/master/ts/src/prediction/opinion.ts), [sx.bet](https://github.com/ccxt/ccxt/blob/master/ts/src/prediction/sxbet.ts) (WebSocket via Centrifugo)
-- 🔍 **Deep exchange audits** — endpoint-by-endpoint verification against live APIs with static-fixture regression tests: WhiteBIT, XT, WOO / WOOFi Pro, WEEX, Toobit, Poloniex, Kraken Futures, Alpaca, Upbit, Tokocrypto, P2B, Phemex, Paradex, Pacifica, Bitget, ModeTrade, Lighter, Nado, Mudrex
-- 🧩 **New unified methods** — e.g. a full history suite for Kraken Futures: `fetchTradingFees`, `fetchLedger`, `fetchFundingHistory`, `fetchPositionsHistory`
+- 🔍 **Deep exchange audits** — endpoint-by-endpoint verification against live APIs with static-fixture regression tests: WhiteBIT, XT, WOO / WOOFi Pro, WEEX, Toobit, Poloniex, Kraken Futures, Alpaca, Upbit, Tokocrypto, P2B, Phemex, Paradex, Pacifica, Bitget, ModeTrade, Lighter, Nado, Mudrex, LAToken
+- 🧩 **New unified methods** — e.g. a full history suite for Kraken Futures: `fetchTradingFees`, `fetchLedger`, `fetchFundingHistory`, `fetchPositionsHistory`; liquidations for Hyperliquid: `fetchMyLiquidations`, `watchMyLiquidations`
 - 📈 **Advanced trading features:** trailing stops, trigger & TP/SL orders, margin/position management, sandbox & demo-trading modes
 - 🛠️ **Unified API maintenance** across dozens of exchanges: Binance, OKX, KuCoin, Kraken, Bitstamp, BitMart, HTX…
 - 🍳 **[ccxt-recipes](https://github.com/rayBastard/ccxt-recipes)** — the same five trading tasks solved in all seven CCXT languages, side by side
@@ -73,6 +73,7 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🎯 Beyond code
 
 - 🤿 **Freediving** — captain of the **Moldova national freediving team** 🇲🇩
+- 🌊 **[apneist.pro](https://apneist.pro)** — a platform I built for the freediving community: profiles with certificates and personal bests, a dive log, clubs and schools, competitions with AIDA / CMAS results
 - 🐺 **AS Roma** tifoso — *Daje Roma!* ❤️💛
 - 🎸🎹 **Music** — guitar & piano
 - ⚙️ **Warhammer 40K** — in the grim darkness of the far future, there is only merge conflict resolution
