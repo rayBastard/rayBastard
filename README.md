@@ -22,11 +22,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest PRs landed in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(mexc): place, list and cancel swap trigger orders](https://github.com/ccxt/ccxt/pull/30795) · 2026-10-11
 - [fix(bitget): route uta fetchFundingRates to v3 current-fund-rate](https://github.com/ccxt/ccxt/pull/30752) · 2026-10-06
 - [feat(hyperliquid): add fetchMyLiquidations and watchMyLiquidations](https://github.com/ccxt/ccxt/pull/30758) · 2026-10-06
 - [fix(latoken): resolve ticker symbols from the currency ids in parseTicker](https://github.com/ccxt/ccxt/pull/30746) · 2026-10-05
 - [fix(bitget): route uta fetchOHLCV to history-candles for old windows](https://github.com/ccxt/ccxt/pull/30738) · 2026-10-05
-- [fix(latoken): map the invalid API key and UNAUTHORIZED replies to AuthenticationError](https://github.com/ccxt/ccxt/pull/30741) · 2026-10-03
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -34,11 +34,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [fix(mexc): place, list and cancel swap trigger orders](https://github.com/ccxt/ccxt/pull/30795) · opened 2026-10-11
+- [fix(rust): populate options.cachedCurrencies before fetchMarkets in load_markets](https://github.com/ccxt/ccxt/pull/30750) · opened 2026-10-04
+- [fix(latoken): omit the trigger and type params from signed private requests](https://github.com/ccxt/ccxt/pull/30797) · opened 2026-10-11
+- [chore(mexc): correct stale response-shape comments](https://github.com/ccxt/ccxt/pull/30576) · opened 2026-09-21
 - [feat(latoken): populate currency networks from the public transaction bindings](https://github.com/ccxt/ccxt/pull/30759) · opened 2026-10-05
 - [docs(pacifica): document account helper methods and fix transfer params](https://github.com/ccxt/ccxt/pull/30751) · opened 2026-10-04
-- [fix(rust): populate options.cachedCurrencies before fetchMarkets in load_markets](https://github.com/ccxt/ccxt/pull/30750) · opened 2026-10-04
-- [fix(lighter): let cancelAllOrdersAfter(0) cancel the timer](https://github.com/ccxt/ccxt/pull/30736) · opened 2026-10-02
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
