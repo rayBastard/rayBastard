@@ -1,8 +1,10 @@
 # Hey, I'm Roman Cuhari (aka rayBastard) 👋
 
-**Full-stack developer** from Moldova 🇲🇩 — core contributor at **[CCXT](https://github.com/ccxt/ccxt)**, the cryptocurrency exchange trading library used by thousands of trading bots and fintech products.
+**Full-stack developer** from Moldova 🇲🇩 — core contributor at **[CCXT](https://github.com/ccxt/ccxt)**, the cryptocurrency exchange trading library used by thousands of trading bots and fintech products, and the solo builder of **[apneist.pro](https://apneist.pro)**, the social network for freedivers.
 
 > 🏆 **160+ PRs landed in master** · **top contributor** at [ccxt/ccxt](https://github.com/ccxt/ccxt/graphs/contributors) · contributing since 2024
+>
+> 🌊 **[apneist.pro](https://apneist.pro)** · [@apneistpro](https://github.com/apneistpro) · launched October 2026 · native iOS app in review
 
 ## 🔧 What I do at CCXT
 
@@ -72,8 +74,7 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 
 ## 🎯 Beyond code
 
-- 🤿 **Freediving** — captain of the **Moldova national freediving team** 🇲🇩
-- 🌊 **[apneist.pro](https://apneist.pro)** · [@apneistpro](https://github.com/apneistpro) — the social network for freedivers, which I design, build and run solo: profiles with certificates and personal bests, a dive log, clubs and schools, competitions with AIDA / CMAS results
+- 🤿 **Freediving** — captain of the **Moldova national freediving team** 🇲🇩, and the reason apneist.pro exists
 - 🐺 **AS Roma** tifoso — *Daje Roma!* ❤️💛
 - 🎸🎹 **Music** — guitar & piano
 - ⚙️ **Warhammer 40K** — in the grim darkness of the far future, there is only merge conflict resolution
