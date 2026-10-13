@@ -23,10 +23,10 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 
 <!-- CCXT-PRS:START -->
 - [fix(latoken): omit the trigger and type params from signed private requests](https://github.com/ccxt/ccxt/pull/30797) · 2026-10-12
-- [feat(okx): support the unified selfTradePrevention param in createOrder](https://github.com/ccxt/ccxt/pull/30659) · 2026-10-12
 - [chore(mexc): correct stale response-shape comments](https://github.com/ccxt/ccxt/pull/30576) · 2026-10-12
 - [fix(mexc): place, list and cancel swap trigger orders](https://github.com/ccxt/ccxt/pull/30795) · 2026-10-11
 - [fix(bitget): route uta fetchFundingRates to v3 current-fund-rate](https://github.com/ccxt/ccxt/pull/30752) · 2026-10-06
+- [feat(hyperliquid): add fetchMyLiquidations and watchMyLiquidations](https://github.com/ccxt/ccxt/pull/30758) · 2026-10-06
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
