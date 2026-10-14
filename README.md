@@ -34,11 +34,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [fix(mexc): map swap position sides to buy and sell](https://github.com/ccxt/ccxt/pull/30859) · opened 2026-10-14
 - [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
+- [fix(alpaca): parse watchMyTrades fills from the event, not the order …](https://github.com/ccxt/ccxt/pull/30528) · opened 2026-09-18
 - [fix(mexc): map triggerDirection to the swap trigger type](https://github.com/ccxt/ccxt/pull/30857) · opened 2026-10-14
 - [fix(pacifica): set ledger direction, absolute amount, before and currency](https://github.com/ccxt/ccxt/pull/30854) · opened 2026-10-14
-- [feat(poloniex): add fetchTransfer and fetchTransfers](https://github.com/ccxt/ccxt/pull/30853) · opened 2026-10-14
-- [fix(lighter): allow fetchOrderBook limit up to 250](https://github.com/ccxt/ccxt/pull/30852) · opened 2026-10-14
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
