@@ -22,11 +22,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest PRs landed in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(pacifica): use the funding payout as the funding history amount](https://github.com/ccxt/ccxt/pull/30809) · 2026-10-14
 - [fix(latoken): omit the trigger and type params from signed private requests](https://github.com/ccxt/ccxt/pull/30797) · 2026-10-12
 - [chore(mexc): correct stale response-shape comments](https://github.com/ccxt/ccxt/pull/30576) · 2026-10-12
 - [fix(mexc): place, list and cancel swap trigger orders](https://github.com/ccxt/ccxt/pull/30795) · 2026-10-11
 - [fix(bitget): route uta fetchFundingRates to v3 current-fund-rate](https://github.com/ccxt/ccxt/pull/30752) · 2026-10-06
-- [feat(hyperliquid): add fetchMyLiquidations and watchMyLiquidations](https://github.com/ccxt/ccxt/pull/30758) · 2026-10-06
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -34,11 +34,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [fix(hyperliquid): resolve unWatch on already unsubscribed error](https://github.com/ccxt/ccxt/pull/30810) · opened 2026-10-12
-- [fix(pacifica): use the funding payout as the funding history amount](https://github.com/ccxt/ccxt/pull/30809) · opened 2026-10-12
-- [fix(rust): populate options.cachedCurrencies before fetchMarkets in load_markets](https://github.com/ccxt/ccxt/pull/30750) · opened 2026-10-04
-- [feat(latoken): populate currency networks from the public transaction bindings](https://github.com/ccxt/ccxt/pull/30759) · opened 2026-10-05
-- [fix(weex): account-level position mode and success-envelope error handling](https://github.com/ccxt/ccxt/pull/30412) · opened 2026-09-13
+- [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
+- [fix(mexc): map triggerDirection to the swap trigger type](https://github.com/ccxt/ccxt/pull/30857) · opened 2026-10-14
+- [fix(pacifica): set ledger direction, absolute amount, before and currency](https://github.com/ccxt/ccxt/pull/30854) · opened 2026-10-14
+- [feat(poloniex): add fetchTransfer and fetchTransfers](https://github.com/ccxt/ccxt/pull/30853) · opened 2026-10-14
+- [fix(lighter): allow fetchOrderBook limit up to 250](https://github.com/ccxt/ccxt/pull/30852) · opened 2026-10-14
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
