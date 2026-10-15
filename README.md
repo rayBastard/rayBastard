@@ -22,11 +22,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest PRs landed in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [docs(krakenfutures): replace dead doc links in urls.doc and five methods](https://github.com/ccxt/ccxt/pull/30879) · 2026-10-15
 - [fix(pacifica): use the funding payout as the funding history amount](https://github.com/ccxt/ccxt/pull/30809) · 2026-10-14
 - [fix(latoken): omit the trigger and type params from signed private requests](https://github.com/ccxt/ccxt/pull/30797) · 2026-10-12
 - [chore(mexc): correct stale response-shape comments](https://github.com/ccxt/ccxt/pull/30576) · 2026-10-12
 - [fix(mexc): place, list and cancel swap trigger orders](https://github.com/ccxt/ccxt/pull/30795) · 2026-10-11
-- [fix(bitget): route uta fetchFundingRates to v3 current-fund-rate](https://github.com/ccxt/ccxt/pull/30752) · 2026-10-06
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -34,11 +34,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [docs(krakenfutures): replace dead doc links in urls.doc and five methods](https://github.com/ccxt/ccxt/pull/30879) · opened 2026-10-14
 - [fix(modetrade): derive market active flag from the status field](https://github.com/ccxt/ccxt/pull/30878) · opened 2026-10-14
 - [fix(okx): handle the plain-text ws pong before the error handler](https://github.com/ccxt/ccxt/pull/30874) · opened 2026-10-14
 - [fix(okx): load markets in watchTicker, watchMarkPrice and watchFundingRate](https://github.com/ccxt/ccxt/pull/30872) · opened 2026-10-14
 - [fix(mexc): map swap position sides to buy and sell](https://github.com/ccxt/ccxt/pull/30859) · opened 2026-10-14
+- [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
