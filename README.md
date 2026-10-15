@@ -34,11 +34,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [fix(latoken): align the order capability flags with the implemented methods ](https://github.com/ccxt/ccxt/pull/30885) · opened 2026-10-15
+- [fix(mexc): raise NotSupported from the market-type guards](https://github.com/ccxt/ccxt/pull/30884) · opened 2026-10-15
 - [fix(modetrade): derive market active flag from the status field](https://github.com/ccxt/ccxt/pull/30878) · opened 2026-10-14
 - [fix(okx): handle the plain-text ws pong before the error handler](https://github.com/ccxt/ccxt/pull/30874) · opened 2026-10-14
 - [fix(okx): load markets in watchTicker, watchMarkPrice and watchFundingRate](https://github.com/ccxt/ccxt/pull/30872) · opened 2026-10-14
-- [fix(mexc): map swap position sides to buy and sell](https://github.com/ccxt/ccxt/pull/30859) · opened 2026-10-14
-- [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
