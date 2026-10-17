@@ -22,11 +22,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest PRs landed in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(okx): load markets in watchTicker, watchMarkPrice and watchFundingRate](https://github.com/ccxt/ccxt/pull/30872) · 2026-10-17
 - [fix(toobit): read last price from the 'p' field](https://github.com/ccxt/ccxt/pull/30851) · 2026-10-16
 - [fix(nado): declare the features block for spot and swap markets](https://github.com/ccxt/ccxt/pull/30887) · 2026-10-16
 - [fix(modetrade): derive market active flag from the status field](https://github.com/ccxt/ccxt/pull/30878) · 2026-10-16
 - [fix(mexc): raise NotSupported from the market-type guards](https://github.com/ccxt/ccxt/pull/30884) · 2026-10-16
-- [fix(lighter): allow fetchOrderBook limit up to 250](https://github.com/ccxt/ccxt/pull/30852) · 2026-10-16
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -36,9 +36,9 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 <!-- CCXT-OPEN-PRS:START -->
 - [fix(latoken): align the order capability flags with the implemented methods ](https://github.com/ccxt/ccxt/pull/30885) · opened 2026-10-15
 - [fix(okx): handle the plain-text ws pong before the error handler](https://github.com/ccxt/ccxt/pull/30874) · opened 2026-10-14
-- [fix(okx): load markets in watchTicker, watchMarkPrice and watchFundingRate](https://github.com/ccxt/ccxt/pull/30872) · opened 2026-10-14
 - [fix(mexc): map swap position sides to buy and sell](https://github.com/ccxt/ccxt/pull/30859) · opened 2026-10-14
 - [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · opened 2026-09-04
+- [fix(alpaca): parse watchMyTrades fills from the event, not the order …](https://github.com/ccxt/ccxt/pull/30528) · opened 2026-09-18
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
