@@ -34,11 +34,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [fix(modetrade): carry the envelope timestamp into the ws ticker](https://github.com/ccxt/ccxt/pull/30948) · opened 2026-10-20
 - [feat(lighter): add fetchTrades](https://github.com/ccxt/ccxt/pull/30939) · opened 2026-10-20
 - [fix(nado): declare the documented rate-limit weights per query](https://github.com/ccxt/ccxt/pull/30905) · opened 2026-10-17
 - [chore(krakenfutures): remove the dead recentorders endpoint](https://github.com/ccxt/ccxt/pull/30904) · opened 2026-10-17
 - [fix(latoken): align the order capability flags with the implemented methods ](https://github.com/ccxt/ccxt/pull/30885) · opened 2026-10-15
-- [fix(okx): handle the plain-text ws pong before the error handler](https://github.com/ccxt/ccxt/pull/30874) · opened 2026-10-14
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
