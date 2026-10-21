@@ -22,11 +22,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest PRs landed in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · 2026-10-21
+- [feat(lighter): add fetchTrades](https://github.com/ccxt/ccxt/pull/30939) · 2026-10-21
 - [fix(toobit): fetchMarkOHLCV and fetchIndexOHLCV returned no candles](https://github.com/ccxt/ccxt/pull/30912) · 2026-10-19
 - [feat(modetrade): add fetchTicker and fetchTickers](https://github.com/ccxt/ccxt/pull/30903) · 2026-10-19
 - [fix(okx): load markets in watchTicker, watchMarkPrice and watchFundingRate](https://github.com/ccxt/ccxt/pull/30872) · 2026-10-17
-- [fix(toobit): read last price from the 'p' field](https://github.com/ccxt/ccxt/pull/30851) · 2026-10-16
-- [fix(nado): declare the features block for spot and swap markets](https://github.com/ccxt/ccxt/pull/30887) · 2026-10-16
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -35,10 +35,10 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 
 <!-- CCXT-OPEN-PRS:START -->
 - [fix(modetrade): carry the envelope timestamp into the ws ticker](https://github.com/ccxt/ccxt/pull/30948) · opened 2026-10-20
-- [feat(lighter): add fetchTrades](https://github.com/ccxt/ccxt/pull/30939) · opened 2026-10-20
 - [fix(nado): declare the documented rate-limit weights per query](https://github.com/ccxt/ccxt/pull/30905) · opened 2026-10-17
 - [chore(krakenfutures): remove the dead recentorders endpoint](https://github.com/ccxt/ccxt/pull/30904) · opened 2026-10-17
 - [fix(latoken): align the order capability flags with the implemented methods ](https://github.com/ccxt/ccxt/pull/30885) · opened 2026-10-15
+- [fix(okx): handle the plain-text ws pong before the error handler](https://github.com/ccxt/ccxt/pull/30874) · opened 2026-10-14
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
