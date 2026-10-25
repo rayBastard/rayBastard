@@ -22,11 +22,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest PRs landed in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(latoken): align the order capability flags with the implemented methods ](https://github.com/ccxt/ccxt/pull/30885) · 2026-10-25
 - [fix(modetrade): carry the envelope timestamp into the ws ticker](https://github.com/ccxt/ccxt/pull/30948) · 2026-10-24
 - [fix(mexc): resolve watchBidsAsks on the protobuf bookTicker channel](https://github.com/ccxt/ccxt/pull/30975) · 2026-10-24
 - [fix(mexc): map swap position sides to buy and sell](https://github.com/ccxt/ccxt/pull/30859) · 2026-10-24
 - [fix(pacifica): set ledger direction, absolute amount, before and currency](https://github.com/ccxt/ccxt/pull/30854) · 2026-10-23
-- [fix(mexc): map triggerDirection to the swap trigger type](https://github.com/ccxt/ccxt/pull/30857) · 2026-10-23
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -37,8 +37,8 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 - [fix(bingx): default fetchMyTrades swap tradingUnit to COIN](https://github.com/ccxt/ccxt/pull/30971) · opened 2026-10-23
 - [fix(nado): declare the documented rate-limit weights per query](https://github.com/ccxt/ccxt/pull/30905) · opened 2026-10-17
 - [chore(krakenfutures): remove the dead recentorders endpoint](https://github.com/ccxt/ccxt/pull/30904) · opened 2026-10-17
-- [fix(latoken): align the order capability flags with the implemented methods ](https://github.com/ccxt/ccxt/pull/30885) · opened 2026-10-15
 - [fix(okx): handle the plain-text ws pong before the error handler](https://github.com/ccxt/ccxt/pull/30874) · opened 2026-10-14
+- [fix(alpaca): parse watchMyTrades fills from the event, not the order …](https://github.com/ccxt/ccxt/pull/30528) · opened 2026-09-18
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
