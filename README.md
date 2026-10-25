@@ -34,11 +34,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [fix(krakenfutures): parse high, low, vwap and quote volume in parseTicker](https://github.com/ccxt/ccxt/pull/30995) · opened 2026-10-25
+- [fix(mexc): surface rejected ws subscriptions and reset the right order book](https://github.com/ccxt/ccxt/pull/30994) · opened 2026-10-25
 - [fix(bingx): default fetchMyTrades swap tradingUnit to COIN](https://github.com/ccxt/ccxt/pull/30971) · opened 2026-10-23
 - [fix(nado): declare the documented rate-limit weights per query](https://github.com/ccxt/ccxt/pull/30905) · opened 2026-10-17
 - [chore(krakenfutures): remove the dead recentorders endpoint](https://github.com/ccxt/ccxt/pull/30904) · opened 2026-10-17
-- [fix(okx): handle the plain-text ws pong before the error handler](https://github.com/ccxt/ccxt/pull/30874) · opened 2026-10-14
-- [fix(alpaca): parse watchMyTrades fills from the event, not the order …](https://github.com/ccxt/ccxt/pull/30528) · opened 2026-09-18
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
