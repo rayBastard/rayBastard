@@ -2,7 +2,7 @@
 
 **Full-stack developer** from Moldova 🇲🇩 — core contributor at **[CCXT](https://github.com/ccxt/ccxt)**, the cryptocurrency exchange trading library used by thousands of trading bots and fintech products, and the solo builder of **[apneist.pro](https://apneist.pro)**, the social network for freedivers.
 
-> 🏆 **180+ PRs landed in master** · **top contributor** at [ccxt/ccxt](https://github.com/ccxt/ccxt/graphs/contributors) · contributing since 2024
+> 🏆 **190+ PRs landed in master** · **top contributor** at [ccxt/ccxt](https://github.com/ccxt/ccxt/graphs/contributors) · contributing since 2024
 >
 > 🌊 **[apneist.pro](https://apneist.pro)** · [@apneistpro](https://github.com/apneistpro) · launched October 2026 · native iOS app in review
 
