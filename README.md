@@ -22,11 +22,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest PRs landed in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(krakenfutures): parse high, low, vwap and quote volume in parseTicker](https://github.com/ccxt/ccxt/pull/30995) · 2026-10-29
+- [docs(toobit): replace dead doc links in fetchLastPrices and fetchBidsAsks](https://github.com/ccxt/ccxt/pull/31035) · 2026-10-29
 - [fix(mexc): surface rejected ws subscriptions and reset the right order book](https://github.com/ccxt/ccxt/pull/30994) · 2026-10-28
 - [fix(lighter): map the bad request error codes in handleErrors](https://github.com/ccxt/ccxt/pull/31023) · 2026-10-28
 - [feat(modetrade): add fetchOpenInterest and fetchOpenInterests](https://github.com/ccxt/ccxt/pull/31010) · 2026-10-28
-- [fix(latoken): align the order capability flags with the implemented methods ](https://github.com/ccxt/ccxt/pull/30885) · 2026-10-25
-- [feat(polymarket): add Polymarket perps public REST API](https://github.com/ccxt/ccxt/pull/30268) · 2026-10-21
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -34,11 +34,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [docs(toobit): replace dead doc links in fetchLastPrices and fetchBidsAsks](https://github.com/ccxt/ccxt/pull/31035) · opened 2026-10-28
 - [fix(latoken): drop negative bid and ask volumes in parseTicker](https://github.com/ccxt/ccxt/pull/31011) · opened 2026-10-26
-- [fix(krakenfutures): parse high, low, vwap and quote volume in parseTicker](https://github.com/ccxt/ccxt/pull/30995) · opened 2026-10-25
 - [fix(bingx): default fetchMyTrades swap tradingUnit to COIN](https://github.com/ccxt/ccxt/pull/30971) · opened 2026-10-23
 - [fix(nado): declare the documented rate-limit weights per query](https://github.com/ccxt/ccxt/pull/30905) · opened 2026-10-17
+- [chore(krakenfutures): remove the dead recentorders endpoint](https://github.com/ccxt/ccxt/pull/30904) · opened 2026-10-17
+- [fix(okx): handle the plain-text ws pong before the error handler](https://github.com/ccxt/ccxt/pull/30874) · opened 2026-10-14
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
