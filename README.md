@@ -34,11 +34,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [fix(lighter): guard the unloaded signer in createAuth](https://github.com/ccxt/ccxt/pull/31120) · opened 2026-11-05
+- [fix(toobit): declare the watchPositions capability](https://github.com/ccxt/ccxt/pull/31119) · opened 2026-11-05
 - [fix(poloniex): guard the ws handleMessage dispatch against unmapped channels](https://github.com/ccxt/ccxt/pull/31113) · opened 2026-11-04
 - [chore(p2b): skip the ws tests for the channels the venue stopped streaming](https://github.com/ccxt/ccxt/pull/31111) · opened 2026-11-04
 - [fix(latoken): drop negative bid and ask volumes in parseTicker](https://github.com/ccxt/ccxt/pull/31011) · opened 2026-10-26
-- [fix(bingx): default fetchMyTrades swap tradingUnit to COIN](https://github.com/ccxt/ccxt/pull/30971) · opened 2026-10-23
-- [fix(nado): declare the documented rate-limit weights per query](https://github.com/ccxt/ccxt/pull/30905) · opened 2026-10-17
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
