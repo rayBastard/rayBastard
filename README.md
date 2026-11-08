@@ -34,11 +34,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [fix(poloniex): apply the venue order book depth ladder on both hosts](https://github.com/ccxt/ccxt/pull/31147) · opened 2026-11-08
 - [chore(p2b): correct the daysBack and daysBackCanceled values in features](https://github.com/ccxt/ccxt/pull/31141) · opened 2026-11-08
 - [fix(lighter): guard the unloaded signer in createAuth](https://github.com/ccxt/ccxt/pull/31120) · opened 2026-11-05
 - [fix(latoken): drop negative bid and ask volumes in parseTicker](https://github.com/ccxt/ccxt/pull/31011) · opened 2026-10-26
 - [fix(nado): declare the documented rate-limit weights per query](https://github.com/ccxt/ccxt/pull/30905) · opened 2026-10-17
-- [fix(okx): handle the plain-text ws pong before the error handler](https://github.com/ccxt/ccxt/pull/30874) · opened 2026-10-14
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
