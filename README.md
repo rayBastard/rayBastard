@@ -22,11 +22,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest PRs landed in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(toobit): load markets in cancelOrder](https://github.com/ccxt/ccxt/pull/31183) · 2026-11-12
 - [fix(hyperliquid): resolve unWatch on already unsubscribed error](https://github.com/ccxt/ccxt/pull/30810) · 2026-11-08
 - [fix(bingx): default fetchMyTrades swap tradingUnit to COIN](https://github.com/ccxt/ccxt/pull/30971) · 2026-11-08
 - [chore(krakenfutures): remove the dead recentorders endpoint](https://github.com/ccxt/ccxt/pull/30904) · 2026-11-08
 - [fix(toobit): declare the watchPositions capability](https://github.com/ccxt/ccxt/pull/31119) · 2026-11-07
-- [fix(krakenfutures): parse high, low, vwap and quote volume in parseTicker](https://github.com/ccxt/ccxt/pull/30995) · 2026-10-29
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
