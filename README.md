@@ -26,7 +26,7 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 - [fix(poloniex): apply the venue order book depth ladder on both hosts](https://github.com/ccxt/ccxt/pull/31147) · 2026-11-16
 - [fix(lighter): guard the unloaded signer in createAuth](https://github.com/ccxt/ccxt/pull/31120) · 2026-11-15
 - [fix(toobit): load markets in cancelOrder](https://github.com/ccxt/ccxt/pull/31183) · 2026-11-12
-- [chore(p2b): correct the daysBack and daysBackCanceled values in features](https://github.com/ccxt/ccxt/pull/31141) · 2026-11-12
+- [fix(krakenfutures): parse high, low, vwap and quote volume in parseTicker](https://github.com/ccxt/ccxt/pull/30995) · 2026-10-29
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
