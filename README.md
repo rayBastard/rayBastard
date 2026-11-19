@@ -22,8 +22,8 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest PRs landed in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [docs(xt): document the tag param on withdraw instead of fetchFundingInterval](https://github.com/ccxt/ccxt/pull/31281) · 2026-11-19
 - [fix(bingx): map the Coin-M invalid parameter error code](https://github.com/ccxt/ccxt/pull/31243) · 2026-11-17
-- [fix(poloniex): apply the venue order book depth ladder on both hosts](https://github.com/ccxt/ccxt/pull/31147) · 2026-11-16
 - [fix(toobit): load markets in cancelOrder](https://github.com/ccxt/ccxt/pull/31183) · 2026-11-12
 - [fix(krakenfutures): parse high, low, vwap and quote volume in parseTicker](https://github.com/ccxt/ccxt/pull/30995) · 2026-10-29
 - [docs(toobit): replace dead doc links in fetchLastPrices and fetchBidsAsks](https://github.com/ccxt/ccxt/pull/31035) · 2026-10-29
@@ -34,7 +34,7 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
-- [docs(xt): document the tag param on withdraw instead of fetchFundingInterval](https://github.com/ccxt/ccxt/pull/31281) · opened 2026-11-18
+- [fix(p2b): stamp the ws order book with the local receive time](https://github.com/ccxt/ccxt/pull/31282) · opened 2026-11-18
 - [fix(p2b): subscribe to the full order book instead of grouping prices](https://github.com/ccxt/ccxt/pull/31238) · opened 2026-11-16
 - [fix(okx): handle the plain-text ws pong before the error handler](https://github.com/ccxt/ccxt/pull/30874) · opened 2026-10-14
 - [fix(alpaca): parse watchMyTrades fills from the event, not the order …](https://github.com/ccxt/ccxt/pull/30528) · opened 2026-09-18
