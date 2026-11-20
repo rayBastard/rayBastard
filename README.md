@@ -22,11 +22,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest PRs landed in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [fix(poloniex): classify api key failures as authentication errors](https://github.com/ccxt/ccxt/pull/31298) · 2026-11-20
+- [docs(bingx): document addMargin and reduceMargin](https://github.com/ccxt/ccxt/pull/31297) · 2026-11-20
 - [docs(xt): document the tag param on withdraw instead of fetchFundingInterval](https://github.com/ccxt/ccxt/pull/31281) · 2026-11-19
 - [fix(bingx): map the Coin-M invalid parameter error code](https://github.com/ccxt/ccxt/pull/31243) · 2026-11-17
 - [fix(toobit): load markets in cancelOrder](https://github.com/ccxt/ccxt/pull/31183) · 2026-11-12
-- [fix(krakenfutures): parse high, low, vwap and quote volume in parseTicker](https://github.com/ccxt/ccxt/pull/30995) · 2026-10-29
-- [docs(toobit): replace dead doc links in fetchLastPrices and fetchBidsAsks](https://github.com/ccxt/ccxt/pull/31035) · 2026-10-29
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
