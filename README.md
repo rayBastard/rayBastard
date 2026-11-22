@@ -34,11 +34,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [feat(poloniex): add fetchFundingRate](https://github.com/ccxt/ccxt/pull/31313) · opened 2026-11-21
+- [fix(lighter): declare the market types so exchange.features resolves](https://github.com/ccxt/ccxt/pull/31311) · opened 2026-11-21
 - [fix(p2b): stamp the ws order book with the local receive time](https://github.com/ccxt/ccxt/pull/31282) · opened 2026-11-18
 - [fix(p2b): subscribe to the full order book instead of grouping prices](https://github.com/ccxt/ccxt/pull/31238) · opened 2026-11-16
 - [fix(okx): handle the plain-text ws pong before the error handler](https://github.com/ccxt/ccxt/pull/30874) · opened 2026-10-14
-- [fix(alpaca): parse watchMyTrades fills from the event, not the order …](https://github.com/ccxt/ccxt/pull/30528) · opened 2026-09-18
-- [feat(woo): migrate websocket to v3 API](https://github.com/ccxt/ccxt/pull/29578) · opened 2026-08-05
 <!-- CCXT-OPEN-PRS:END -->
 
 ## 🧰 Languages & tools
