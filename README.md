@@ -22,11 +22,11 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🔀 Latest PRs landed in ccxt/ccxt
 
 <!-- CCXT-PRS:START -->
+- [feat(poloniex): add fetchFundingRate](https://github.com/ccxt/ccxt/pull/31313) · 2026-11-23
 - [fix(poloniex): classify api key failures as authentication errors](https://github.com/ccxt/ccxt/pull/31298) · 2026-11-20
 - [docs(bingx): document addMargin and reduceMargin](https://github.com/ccxt/ccxt/pull/31297) · 2026-11-20
 - [docs(xt): document the tag param on withdraw instead of fetchFundingInterval](https://github.com/ccxt/ccxt/pull/31281) · 2026-11-19
 - [fix(bingx): map the Coin-M invalid parameter error code](https://github.com/ccxt/ccxt/pull/31243) · 2026-11-17
-- [fix(toobit): load markets in cancelOrder](https://github.com/ccxt/ccxt/pull/31183) · 2026-11-12
 <!-- CCXT-PRS:END -->
 
 <sub>↻ auto-updated by GitHub Actions</sub>
@@ -34,9 +34,9 @@ CCXT is a single TypeScript codebase transpiled to **JavaScript, Python, PHP, C#
 ## 🚧 Currently working on
 
 <!-- CCXT-OPEN-PRS:START -->
+- [fix(toobit): correct the spot triggerPrice and symbolRequired features](https://github.com/ccxt/ccxt/pull/31324) · opened 2026-11-23
 - [fix(okx): stop unWatchOHLCV from throwing on an uncached symbol](https://github.com/ccxt/ccxt/pull/31320) · opened 2026-11-22
 - [docs(bingx): drop INDEX_PRICE from the editOrder working types](https://github.com/ccxt/ccxt/pull/31319) · opened 2026-11-22
-- [feat(poloniex): add fetchFundingRate](https://github.com/ccxt/ccxt/pull/31313) · opened 2026-11-21
 - [fix(lighter): declare the market types so exchange.features resolves](https://github.com/ccxt/ccxt/pull/31311) · opened 2026-11-21
 - [fix(p2b): stamp the ws order book with the local receive time](https://github.com/ccxt/ccxt/pull/31282) · opened 2026-11-18
 <!-- CCXT-OPEN-PRS:END -->
